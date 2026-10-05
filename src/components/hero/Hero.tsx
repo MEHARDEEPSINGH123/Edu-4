@@ -77,11 +77,9 @@ export default function Hero({ brand }: HeroProps) {
         transition={{ duration: 0.6, delay: 0.1 }}
         className="max-w-7xl mx-auto w-full flex flex-wrap items-center justify-between gap-4 pt-4 text-xs font-mono text-neutral-400"
       >
-        <div className="flex items-center gap-2.5 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md">
+        <div className="flex items-center gap-2 text-xs font-mono text-neutral-400">
           <span className="w-2 h-2 rounded-full bg-[#6EE7B7] animate-pulse" />
-          <span className="text-neutral-300 font-sans tracking-wide">
-            Singapore Central Hub • Admissions Open for 2026/2027 Cohorts
-          </span>
+          <span>Singapore Central Hub • Admissions Open for 2026/2027 Cohorts</span>
         </div>
 
         <div className="hidden md:flex items-center gap-6">
@@ -111,11 +109,10 @@ export default function Hero({ brand }: HeroProps) {
           <div className="overflow-hidden">
             <motion.h1
               variants={lineItem}
-              className="text-[17vw] sm:text-[14vw] lg:text-[11.5vw] font-black uppercase tracking-tighter leading-[0.88] text-white flex items-center gap-4"
+              className="text-[14vw] sm:text-[12vw] lg:text-[9.5vw] font-black uppercase tracking-tighter leading-[0.88] text-white"
               style={{ fontFamily: 'var(--font-display)' }}
             >
-              <span>LEARN</span>
-              <span className="inline-block w-4 sm:w-8 md:w-16 h-1 sm:h-2 md:h-3 bg-[#FF6B35] rounded-full self-center" />
+              LEARN
             </motion.h1>
           </div>
 
@@ -123,7 +120,7 @@ export default function Hero({ brand }: HeroProps) {
           <div className="overflow-hidden">
             <motion.h1
               variants={lineItem}
-              className="text-[17vw] sm:text-[14vw] lg:text-[11.5vw] font-black uppercase tracking-tighter leading-[0.88] text-transparent bg-clip-text bg-gradient-to-r from-neutral-100 via-neutral-300 to-neutral-500 hover:to-[#FF6B35] transition-all duration-700"
+              className="text-[14vw] sm:text-[12vw] lg:text-[9.5vw] font-black uppercase tracking-tighter leading-[0.88] text-transparent bg-clip-text bg-gradient-to-r from-neutral-100 via-neutral-300 to-neutral-500 hover:to-[#FF6B35] transition-all duration-700"
               style={{ fontFamily: 'var(--font-display)' }}
             >
               BEYOND
@@ -131,17 +128,21 @@ export default function Hero({ brand }: HeroProps) {
           </div>
 
           {/* Line 3: BOUNDARIES */}
-          <div className="overflow-hidden flex flex-wrap items-baseline gap-4 sm:gap-6">
+          <div className="overflow-hidden">
             <motion.h1
               variants={lineItem}
-              className="text-[17vw] sm:text-[14vw] lg:text-[11.5vw] font-black uppercase tracking-tighter leading-[0.88] text-white"
+              className="text-[10.5vw] sm:text-[9.2vw] lg:text-[7.6vw] xl:text-[6.5rem] font-black uppercase tracking-tight leading-[0.88] text-white"
               style={{ fontFamily: 'var(--font-display)' }}
             >
               BOUNDARIES
             </motion.h1>
+          </div>
+
+          {/* Dynamic Badges Row */}
+          <div className="overflow-hidden mt-3 sm:mt-5 flex flex-wrap items-center gap-3 sm:gap-4">
             <motion.span
               variants={lineItem}
-              className="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full text-xs font-mono uppercase bg-[#FF6B35]/15 border border-[#FF6B35]/30 text-[#FF6B35]"
+              className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full text-xs font-mono uppercase bg-[#FF6B35]/15 border border-[#FF6B35]/30 text-[#FF6B35]"
             >
               <Zap className="w-3.5 h-3.5 fill-current" />
               Next-Gen Ecosystem
@@ -149,7 +150,7 @@ export default function Hero({ brand }: HeroProps) {
 
             <motion.div
               variants={lineItem}
-              className="hidden lg:flex items-center gap-2 font-handwriting text-3xl text-[#FFD166] -rotate-3 select-none ml-3"
+              className="inline-flex items-center gap-2 font-handwriting text-2xl sm:text-3xl text-[#FFD166] -rotate-2 select-none"
             >
               <span>✦ Future-ready mastery in SG</span>
             </motion.div>
