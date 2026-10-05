@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-dark: #0A0A0A;
+    --surface-dark: #111111;
+    --card-dark: #161616;
+    --card-border: #262626;
+    --text-primary: #F5F5F5;
+    --text-muted: #8E8E93;
+    --accent-orange: #FF6B35;
+    --accent-mint: #6EE7B7;
+    --accent-amber: #FFD166;
+    --accent-sky: #38BDF8;
+    --accent-pink: #F472B6;
+    --accent-purple: #A78BFA;
+  }
+
+  * {
+    border-color: #262626;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #0A0A0A;
+    color: #F5F5F5;
+    font-family: var(--font-body), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  body {
+    background-color: #0A0A0A;
+    color: #F5F5F5;
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
+    selection-background-color: #FF6B35;
+    selection-color: #0A0A0A;
+  }
+
+  ::selection {
+    background: #FF6B35;
+    color: #0A0A0A;
+  }
+}
+
+/* Glassmorphism helpers */
+.glass-panel {
+  background: rgba(18, 18, 18, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-subtle {
+  background: rgba(22, 22, 22, 0.5);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-floating-nav {
+  background: rgba(12, 12, 12, 0.82);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.glow-orange {
+  box-shadow: 0 0 35px -5px rgba(255, 107, 53, 0.35);
+}
+
+.glow-mint {
+  box-shadow: 0 0 35px -5px rgba(110, 231, 183, 0.3);
+}
+
+/* Custom noise overlay */
+.bg-noise {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Hide scrollbar for clean horizontal scrolls */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.font-handwriting {
+  font-family: var(--font-handwriting), 'Caveat', cursive;
+}
+
+.shery-card-hover {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease, border-color 0.35s ease;
+}
+.shery-card-hover:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 107, 53, 0.45);
+  box-shadow: 0 20px 40px -15px rgba(255, 107, 53, 0.22);
+}
+

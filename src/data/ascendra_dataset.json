@@ -1,0 +1,2246 @@
+{
+  "brand": {
+    "name": "Ascendra Learning",
+    "tagline": "Singapore's Premier Multi-Disciplinary Lifelong Learning Ecosystem",
+    "subheadline": "A modern learning ecosystem engineered for future-ready learners, industry leaders, and intellectual innovators in Singapore.",
+    "country": "Singapore",
+    "stats": [
+      {
+        "label": "Completion Rate",
+        "value": "98.4%",
+        "description": "Rigorous mentor-guided outcomes"
+      },
+      {
+        "label": "SkillsFuture Subsidy",
+        "value": "Up to 90%",
+        "description": "SSG accredited programs for Singaporeans"
+      },
+      {
+        "label": "Active Alumni Network",
+        "value": "48,500+",
+        "description": "Spanning MBFC, One-North, and global hubs"
+      },
+      {
+        "label": "Industry Satisfaction",
+        "value": "4.96 / 5.0",
+        "description": "Evaluated across 300+ enterprise partners"
+      }
+    ]
+  },
+  "dataset_summary": {
+    "campuses": 10,
+    "course_categories": 15,
+    "courses": 150,
+    "trainers": 50,
+    "trial_classes": 100,
+    "schedules": 180,
+    "certifications": 40,
+    "reviews": 300,
+    "success_stories": 120,
+    "scholarships": 25,
+    "career_pathways": 50
+  },
+  "course_categories": [
+    "PSLE",
+    "O-Level",
+    "A-Level",
+    "IB",
+    "IGCSE",
+    "Artificial Intelligence",
+    "Data Analytics",
+    "Cyber Security",
+    "Cloud Computing",
+    "Business Management",
+    "Digital Marketing",
+    "English",
+    "Mandarin",
+    "Japanese",
+    "Creative Design"
+  ],
+  "learning_goals": [
+    {
+      "id": "academic-excellence",
+      "title": "Academic Excellence",
+      "tag": "O/A-Level & IB Mastery",
+      "description": "Proprietary Singapore-Cambridge pedagogy engineered for top percentile distinctions in PSLE, O-Level, A-Level, and IB Diploma exams.",
+      "metric": "94.2% Distinction Rate",
+      "accent": "#FF6B35",
+      "recommended_universe": "academic",
+      "recommended_course_ids": [
+        "CRS-ACAD-01",
+        "CRS-ACAD-02",
+        "CRS-ACAD-03"
+      ],
+      "recommended_pathway_id": "pw-academic-ivy",
+      "quote": "Rigorous diagnostic testing combined with conceptual clarity transforms average students into national scholars.",
+      "author": "Prof. Mei-Ling Zhou",
+      "author_title": "Dean of Academic Sciences, Ex-MOE Curriculum Specialist",
+      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "career-growth",
+      "title": "Career Growth",
+      "tag": "Accelerated Trajectory",
+      "description": "Direct industry upskilling in high-demand technical and analytical disciplines with live portfolio building and direct enterprise placements.",
+      "metric": "+64% Avg. Salary Surge",
+      "accent": "#6EE7B7",
+      "recommended_universe": "technology",
+      "recommended_course_ids": [
+        "CRS-TECH-01",
+        "CRS-TECH-02",
+        "CRS-TECH-04"
+      ],
+      "recommended_pathway_id": "pw-ai-engineering",
+      "quote": "Companies in Singapore do not look for certificate collectors. They look for professionals who can deploy autonomous systems on day one.",
+      "author": "Dr. Aaron Chen",
+      "author_title": "Chief AI Fellow, Ex-DeepMind & NUS Adjunct",
+      "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "business-success",
+      "title": "Business Success",
+      "tag": "Leadership & Scale",
+      "description": "Executive-level decision frameworks, cross-border venture governance, M&A strategy, and Asian market scalability for founders and leaders.",
+      "metric": "$84M+ Venture Capital Raised by Alumni",
+      "accent": "#FFD166",
+      "recommended_universe": "business",
+      "recommended_course_ids": [
+        "CRS-BIZ-01",
+        "CRS-BIZ-02"
+      ],
+      "recommended_pathway_id": "pw-fintech-executive",
+      "quote": "Singapore is the epicenter of Asian capital flows. Mastering executive leadership here equips you to orchestrate regional growth.",
+      "author": "Marcus Vance",
+      "author_title": "Managing Partner at Vertex Horizon, Former Temasek Director",
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "language-mastery",
+      "title": "Language Mastery",
+      "tag": "Diplomatic & Global Fluency",
+      "description": "High-stakes diplomatic, legal, and boardroom language proficiencies in Business Mandarin, Diplomatic Japanese, and High-Impact English Rhetoric.",
+      "metric": "JLPT N1 / HSK 6 98% Pass Rate",
+      "accent": "#38BDF8",
+      "recommended_universe": "languages",
+      "recommended_course_ids": [
+        "CRS-LANG-01",
+        "CRS-LANG-02"
+      ],
+      "recommended_pathway_id": "pw-bilingual-diplomacy",
+      "quote": "Language is the subtle architecture of bilateral trust. Nuance in Asian trade negotiations determines multi-million dollar outcomes.",
+      "author": "Kenji Takahashi",
+      "author_title": "Bilingual Arbitrator & Diplomatic Protocol Consultant",
+      "image": "https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "creative-skills",
+      "title": "Creative Skills",
+      "tag": "Spatial & Digital Craft",
+      "description": "Spatial interface design, generative AI art direction, architectural 3D visualization, and brand design systems for the next decade.",
+      "metric": "24 Awwwards & Red Dot Honours",
+      "accent": "#F472B6",
+      "recommended_universe": "creative",
+      "recommended_course_ids": [
+        "CRS-CRTV-01",
+        "CRS-CRTV-02"
+      ],
+      "recommended_pathway_id": "pw-spatial-design",
+      "quote": "Design is not decorative styling; it is an uncompromising engineering of human attention and emotional connection.",
+      "author": "Sarah Jenkins",
+      "author_title": "VP of Spatial Experience, Former Stripe Design Lead",
+      "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "professional-development",
+      "title": "Professional Development",
+      "tag": "C-Suite & Influence",
+      "description": "Boardroom negotiation, behavioral psychology, executive gravitas, and high-stakes media management for emerging and established directors.",
+      "metric": "Over 820 Board Placements",
+      "accent": "#A78BFA",
+      "recommended_universe": "professional",
+      "recommended_course_ids": [
+        "CRS-PROF-01",
+        "CRS-PROF-02"
+      ],
+      "recommended_pathway_id": "pw-boardroom-readiness",
+      "quote": "Gravitas is engineered through disciplined verbal precision and situational emotional calibration.",
+      "author": "Rachel Adams",
+      "author_title": "Chairperson of Ascendra Institute of Governance",
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "learning_universe": [
+    {
+      "id": "univ-academic",
+      "title": "Academic Excellence",
+      "subtitle": "Singapore-Cambridge & Global Baccalaureate Mastery",
+      "category_key": "academic",
+      "description": "Precision coaching for PSLE, O-Level, A-Level H2 Mathematics/Physics/Economics, and IB Diploma. Taught exclusively by former MOE senior curriculum specialists and President's Scholars.",
+      "stats": "94.2% Distinctions | 1:6 Studio Ratio | Bespoke Diagnostics",
+      "color_accent": "#FF6B35",
+      "badge": "National Standard",
+      "featured_programs": [
+        "A-Level Economics Excellence",
+        "IB Higher Level Physics Studio",
+        "PSLE Mathematics Mastery"
+      ],
+      "key_competencies": [
+        "Abstract Modeling",
+        "Singapore Math Heuristics",
+        "Comparative Macroeconomics",
+        "IB TOK & EE Formulation"
+      ],
+      "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1400&auto=format&fit=crop"
+    },
+    {
+      "id": "univ-technology",
+      "title": "Deep Technology & AI",
+      "subtitle": "Enterprise Intelligence & Cloud Architecture",
+      "category_key": "technology",
+      "description": "Production-grade autonomous AI agents, distributed cloud infrastructure, cyber warfare defense, and high-frequency data engineering designed for Singapore's Smart Nation agenda.",
+      "stats": "100% Code in Production | Cloud GPU Labs | GovTech Aligned",
+      "color_accent": "#6EE7B7",
+      "badge": "Smart Nation Frontier",
+      "featured_programs": [
+        "Applied Artificial Intelligence & LLM Agents",
+        "Enterprise Cybersecurity & Zero-Trust Defense",
+        "Big Data Analytics & Predictive Pipelines"
+      ],
+      "key_competencies": [
+        "LangChain & Agentic Systems",
+        "Zero-Trust Architecture",
+        "PyTorch / TensorFlow",
+        "Kubernetes & Multi-Cloud"
+      ],
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1400&auto=format&fit=crop"
+    },
+    {
+      "id": "univ-business",
+      "title": "Business & FinTech",
+      "subtitle": "Cross-Border Strategy & Capital Governance",
+      "category_key": "business",
+      "description": "Equipping senior leaders, venture founders, and investment directors with quantitative modeling, digital asset regulatory compliance, and cross-border M&A negotiation acumen.",
+      "stats": "$1.4B Managed Portfolio Experience | MAS Regulatory Framework",
+      "color_accent": "#FFD166",
+      "badge": "MBFC Executive Tier",
+      "featured_programs": [
+        "Business Leadership & Asian Scalability",
+        "FinTech Regulation & Digital Assets",
+        "Quantitative Corporate Finance"
+      ],
+      "key_competencies": [
+        "Venture Capital Structuring",
+        "Algorithmic Risk Governance",
+        "Asian Market Entry",
+        "ESG Capital Strategy"
+      ],
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1400&auto=format&fit=crop"
+    },
+    {
+      "id": "univ-languages",
+      "title": "Linguistic & Cultural Diplomacy",
+      "subtitle": "High-Stakes Asian & Global Communication",
+      "category_key": "languages",
+      "description": "Mastery of Business Mandarin for sovereign wealth negotiations, Diplomatic Japanese for Tokyo bilateral transactions, and High-Stakes English Rhetoric for global stage keynotes.",
+      "stats": "Simultaneous Interpretation Suites | Cultural Protocol Labs",
+      "color_accent": "#38BDF8",
+      "badge": "Diplomatic Standard",
+      "featured_programs": [
+        "Japanese Language Professional & Corporate Keigo",
+        "Business Mandarin for Regional C-Suite",
+        "Diplomatic English & Rhetoric Mastery"
+      ],
+      "key_competencies": [
+        "High-Context Keigo Diplomacy",
+        "Chinese Commercial Contract Law",
+        "Crisis Press Rhetoric",
+        "Cross-Border Mediation"
+      ],
+      "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1400&auto=format&fit=crop"
+    },
+    {
+      "id": "univ-creative",
+      "title": "Spatial & Creative Design",
+      "subtitle": "Next-Gen Human Interfaces & Brand Architecture",
+      "category_key": "creative",
+      "description": "Transcending flat UI into spatial computing, real-time 3D environments, generative design pipelines, and world-class typographic identity systems.",
+      "stats": "Vision Pro Spatial Labs | Unreal Engine 5 | Red Dot Mentors",
+      "color_accent": "#F472B6",
+      "badge": "Avant-Garde Studio",
+      "featured_programs": [
+        "Spatial Interface & VisionOS Architecture",
+        "Advanced Brand Systems & Typography",
+        "Generative AI Art Direction"
+      ],
+      "key_competencies": [
+        "Spatial Interaction Models",
+        "Design Tokens at Scale",
+        "Houdini & Spline 3D",
+        "Interactive Motion Physics"
+      ],
+      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=1400&auto=format&fit=crop"
+    },
+    {
+      "id": "univ-professional",
+      "title": "Professional & Boardroom Mastery",
+      "subtitle": "Executive Gravitas & Behavioral Influence",
+      "category_key": "professional",
+      "description": "Elite developmental frameworks for independent directors, family office principals, and senior civil servants facing multi-stakeholder crises.",
+      "stats": "Live Crisis Simulation War-Rooms | SID Certified Mentors",
+      "color_accent": "#A78BFA",
+      "badge": "Sovereign Executive",
+      "featured_programs": [
+        "Boardroom Governance & Crisis Strategy",
+        "High-Stakes Multi-Party Negotiation",
+        "Executive Gravitas & Media Authority"
+      ],
+      "key_competencies": [
+        "Fiduciary Governance",
+        "Hostage-Grade Negotiation",
+        "Vocal Presence Calibration",
+        "Activist Defense"
+      ],
+      "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=1400&auto=format&fit=crop"
+    }
+  ],
+  "courses": [
+    {
+      "id": "CRS-TECH-01",
+      "code": "AI-901",
+      "title": "Applied Artificial Intelligence & Autonomous LLM Agents",
+      "category": "Artificial Intelligence",
+      "universe": "technology",
+      "level": "Advanced",
+      "duration": "14 Weeks (Evening & Sat)",
+      "hours_total": 112,
+      "format": "Hybrid Interactive Studio",
+      "fee_sgd": 5200,
+      "skillsfuture_eligible": true,
+      "skillsfuture_subsidy_sgd": 3640,
+      "net_fee_sgd": 1560,
+      "eligibility": "Singapore Citizens & PRs aged 21+, STEM or business degree, basic Python proficiency or completion of Ascendra Python Bridge.",
+      "prerequisites": "Python fundamentals, Linear Algebra concepts, Git proficiency.",
+      "overview": "Architect, fine-tune, and deploy multi-agent autonomous AI systems in production. Features hands-on cluster compute access, LangGraph, RAG pipelines with Qdrant, and enterprise security guardrails.",
+      "syllabus": [
+        {
+          "module_number": 1,
+          "title": "Foundations of Large Models & Latent Embeddings",
+          "topics": [
+            "Transformer attention mechanisms",
+            "Vector geometry & embedding quantization",
+            "Hugging Face model architectures"
+          ]
+        },
+        {
+          "module_number": 2,
+          "title": "Enterprise RAG & Hybrid Vector Retrieval",
+          "topics": [
+            "Hierarchical chunking strategies",
+            "Dense vs BM25 sparse hybrid rankers",
+            "Context window compression"
+          ]
+        },
+        {
+          "module_number": 3,
+          "title": "Autonomous Multi-Agent Orchestration",
+          "topics": [
+            "LangGraph & AutoGen state graphs",
+            "Self-correcting code interpreters",
+            "Tool calling & structured JSON validation"
+          ]
+        },
+        {
+          "module_number": 4,
+          "title": "Production Deployment & Security Guardrails",
+          "topics": [
+            "Llama-Guard & NeMo prompt injection defense",
+            "vLLM high-throughput inference",
+            "Enterprise latency & cost auditing"
+          ]
+        }
+      ],
+      "next_cohort_date": "18 Nov 2026",
+      "schedule_summary": "Tuesdays 7:00 PM - 10:00 PM & Saturdays 10:00 AM - 3:00 PM",
+      "campus_locations": [
+        "One-North Tech Nexus",
+        "Marina Bay Financial Centre"
+      ],
+      "trainer_ids": [
+        "TRN-001",
+        "TRN-007"
+      ],
+      "certification_name": "Ascendra Certified Autonomous AI Architect (ACAA)",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1200&auto=format&fit=crop",
+      "rating": 4.98,
+      "total_enrolled": 420,
+      "featured": true,
+      "key_outcomes": [
+        "Build and ship 3 production AI microservices",
+        "Deploy autonomous agent with live tools",
+        "Direct interview pipeline to GovTech & Grab"
+      ]
+    },
+    {
+      "id": "CRS-ACAD-01",
+      "code": "ACD-802",
+      "title": "A-Level Economics Excellence & Macroeconomic Policy",
+      "category": "A-Level",
+      "universe": "academic",
+      "level": "Intermediate",
+      "duration": "16 Weeks",
+      "hours_total": 96,
+      "format": "In-Campus Masterclass",
+      "fee_sgd": 2600,
+      "skillsfuture_eligible": false,
+      "skillsfuture_subsidy_sgd": 0,
+      "net_fee_sgd": 2600,
+      "eligibility": "Junior College 1 & 2 students preparing for Singapore-Cambridge GCE A-Level H2 Economics examinations.",
+      "prerequisites": "Enrollment in JC Economics curriculum.",
+      "overview": "Master Singapore-Cambridge H2 Economics essay frameworks and case-study evaluation skills. Led by former MOE Chief Examiners utilizing proprietary real-world Asian monetary policy data.",
+      "syllabus": [
+        {
+          "module_number": 1,
+          "title": "Microeconomic Market Failures & Singapore Interventions",
+          "topics": [
+            "Externalities and public goods",
+            "Market dominance & Competition Commission of Singapore",
+            "Price elasticities in high-cost economies"
+          ]
+        },
+        {
+          "module_number": 2,
+          "title": "Macroeconomic Policy Mix & Exchange Rate Management",
+          "topics": [
+            "MAS S$NEER exchange rate centric monetary policy",
+            "Fiscal stabilization & sovereign wealth management",
+            "Supply-side productivity drives"
+          ]
+        },
+        {
+          "module_number": 3,
+          "title": "Global Trade, FX Dynamics & Decoupling",
+          "topics": [
+            "Comparative advantage under deglobalization",
+            "Tariffs, trade pacts (CPTPP, RCEP)",
+            "Balance of payments adjustments"
+          ]
+        },
+        {
+          "module_number": 4,
+          "title": "Case Study Dissection & 25-Mark Essay Strategy",
+          "topics": [
+            "Thesis evaluation algorithms",
+            "Evidence synthesis under 45-minute exam constraints",
+            "Synoptic cross-topic synthesis"
+          ]
+        }
+      ],
+      "next_cohort_date": "04 Nov 2026",
+      "schedule_summary": "Sundays 1:30 PM - 5:30 PM",
+      "campus_locations": [
+        "Orchard Central Learning Hub",
+        "Bugis Heritage Academy"
+      ],
+      "trainer_ids": [
+        "TRN-002"
+      ],
+      "certification_name": "Ascendra Academic Honors: Advanced Macroeconomics",
+      "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1200&auto=format&fit=crop",
+      "rating": 4.96,
+      "total_enrolled": 610,
+      "featured": true,
+      "key_outcomes": [
+        "93.8% H2 Economics 'A' Grade rate",
+        "Mastery of 25-mark evaluation frameworks",
+        "Direct access to proprietary examiner mock papers"
+      ]
+    },
+    {
+      "id": "CRS-BIZ-01",
+      "code": "BIZ-701",
+      "title": "Business Leadership & Asian Scalability Program",
+      "category": "Business Management",
+      "universe": "business",
+      "level": "Executive",
+      "duration": "10 Weeks (Weekends)",
+      "hours_total": 80,
+      "format": "Executive Studio & Retreat",
+      "fee_sgd": 3900,
+      "skillsfuture_eligible": true,
+      "skillsfuture_subsidy_sgd": 2730,
+      "net_fee_sgd": 1170,
+      "eligibility": "Founders, Directors, C-Suite leaders, or professionals with 5+ years management experience in ASEAN operations.",
+      "prerequisites": "Mid-to-senior corporate or entrepreneurial background.",
+      "overview": "Designed for business leaders navigating the complex socio-economic landscape of Southeast Asia. Master venture capital negotiations, multi-market operational expansion, and strategic talent architecture.",
+      "syllabus": [
+        {
+          "module_number": 1,
+          "title": "Regional Geopolitics & ASEAN Market Entry",
+          "topics": [
+            "Regulatory landscapes across Indonesia, Vietnam, Malaysia",
+            "Cross-border tax structures & Singapore HQ arbitrage",
+            "Local joint venture governance"
+          ]
+        },
+        {
+          "module_number": 2,
+          "title": "Capital Raising & Term Sheet Negotiation",
+          "topics": [
+            "Series A to C venture dynamics",
+            "Liquidation preferences & board seat covenants",
+            "Secondary sale mechanics"
+          ]
+        },
+        {
+          "module_number": 3,
+          "title": "High-Performance Culture & Executive Retention",
+          "topics": [
+            "ESOP pooling & phantom equity models",
+            "Remote distributed executive cadences",
+            "Founder transition to professional CEO"
+          ]
+        },
+        {
+          "module_number": 4,
+          "title": "Crisis Management & Turnaround Governance",
+          "topics": [
+            "Liquidity stress-testing",
+            "Activist investor management",
+            "Media communication under public scrutiny"
+          ]
+        }
+      ],
+      "next_cohort_date": "25 Nov 2026",
+      "schedule_summary": "Saturdays 9:30 AM - 4:30 PM at Marina Bay Campus",
+      "campus_locations": [
+        "Marina Bay Financial Centre",
+        "Tanjong Pagar Design Loft"
+      ],
+      "trainer_ids": [
+        "TRN-003"
+      ],
+      "certification_name": "Ascendra Executive Diploma in Asian Enterprise Leadership",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop",
+      "rating": 4.95,
+      "total_enrolled": 380,
+      "featured": true,
+      "key_outcomes": [
+        "Defend personal venture pitch to 4 active Singapore VC partners",
+        "Complete cross-border tax & IP holding structure",
+        "Lifetime admission to Ascendra Founders Circle"
+      ]
+    },
+    {
+      "id": "CRS-LANG-01",
+      "code": "LNG-605",
+      "title": "Japanese Language Professional & Corporate Keigo",
+      "category": "Japanese",
+      "universe": "languages",
+      "level": "Intermediate",
+      "duration": "12 Weeks",
+      "hours_total": 72,
+      "format": "Live Interactive Hybrid",
+      "fee_sgd": 2100,
+      "skillsfuture_eligible": true,
+      "skillsfuture_subsidy_sgd": 1470,
+      "net_fee_sgd": 630,
+      "eligibility": "Professionals working with Japanese MNCs, trading houses (Sogo Shosha), or government agencies.",
+      "prerequisites": "JLPT N3 equivalence or conversational fluency.",
+      "overview": "Unlock bilateral commercial opportunities with Japanese corporate conglomerates. Master Sonkeigo, Kenjougo, Teineigo, commercial email composition, and Tokyo negotiation protocol.",
+      "syllabus": [
+        {
+          "module_number": 1,
+          "title": "Advanced Honorific Hierarchies (Sonkeigo & Kenjougo)",
+          "topics": [
+            "In-group vs out-group linguistic positioning",
+            "Verbal humility in high-stakes presentations",
+            "Audio nuances in tone and inflection"
+          ]
+        },
+        {
+          "module_number": 2,
+          "title": "Corporate Correspondence & Contractual Syntax",
+          "topics": [
+            "Standard business greetings (Aisatsu)",
+            "Diplomatic objection phrases without confrontation",
+            "Formal billing and procurement correspondence"
+          ]
+        },
+        {
+          "module_number": 3,
+          "title": "Meeting Etiquette, Nemawashi & Seating Protocols",
+          "topics": [
+            "Kamiza and Shimoza spatial rules",
+            "Informal consensus building prior to formal votes",
+            "Gift exchange & dining diplomacy"
+          ]
+        },
+        {
+          "module_number": 4,
+          "title": "Commercial Roleplay & Bilateral Settlement Simulation",
+          "topics": [
+            "Simulated joint venture negotiations",
+            "Resolving delivery disputes with honorific precision",
+            "Closing ceremony formal toasts"
+          ]
+        }
+      ],
+      "next_cohort_date": "12 Nov 2026",
+      "schedule_summary": "Mondays & Thursdays 7:30 PM - 9:30 PM",
+      "campus_locations": [
+        "Bugis Heritage Academy",
+        "Orchard Central Learning Hub"
+      ],
+      "trainer_ids": [
+        "TRN-005"
+      ],
+      "certification_name": "Ascendra Corporate Japanese Language Master (JL-PRO)",
+      "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1200&auto=format&fit=crop",
+      "rating": 4.94,
+      "total_enrolled": 290,
+      "featured": false,
+      "key_outcomes": [
+        "Full fluency in corporate Keigo communication",
+        "Ability to negotiate without interpreter in Tokyo",
+        "SkillsFuture claimable up to 70%"
+      ]
+    },
+    {
+      "id": "CRS-ACAD-02",
+      "code": "ACD-801",
+      "title": "PSLE Mathematics Mastery & Olympiad Heuristics",
+      "category": "PSLE",
+      "universe": "academic",
+      "level": "Foundational",
+      "duration": "20 Weeks",
+      "hours_total": 80,
+      "format": "In-Campus Studio",
+      "fee_sgd": 1800,
+      "skillsfuture_eligible": false,
+      "skillsfuture_subsidy_sgd": 0,
+      "net_fee_sgd": 1800,
+      "eligibility": "Primary 5 and Primary 6 students seeking AL1 in PSLE Mathematics.",
+      "prerequisites": "Completion of Primary 4 core syllabus.",
+      "overview": "A transformative analytical program moving beyond rote formulas into proprietary visual heuristics, speed spatial analysis, and non-routine problem solving.",
+      "syllabus": [
+        {
+          "module_number": 1,
+          "title": "Visual Heuristics & Units Transformation",
+          "topics": [
+            "Advanced constant sum & constant difference models",
+            "Repeated identity visual breakdowns",
+            "Fraction-percentage speed equivalence"
+          ]
+        },
+        {
+          "module_number": 2,
+          "title": "Spatial Geometry & Speed Calculations",
+          "topics": [
+            "Composite area slicing techniques",
+            "Overlapping circle geometries",
+            "Relative speed & catch-up distance models"
+          ]
+        },
+        {
+          "module_number": 3,
+          "title": "Pattern Recognition & Algebraic Bridge",
+          "topics": [
+            "Square numbers and triangular sequences",
+            "Algebraic representation for complex word problems",
+            "Error-checking algorithmic habits"
+          ]
+        }
+      ],
+      "next_cohort_date": "08 Nov 2026",
+      "schedule_summary": "Saturdays 9:00 AM - 11:30 AM",
+      "campus_locations": [
+        "Tampines Regional Campus",
+        "Jurong Innovation District",
+        "Woodlands Northern Hub"
+      ],
+      "trainer_ids": [
+        "TRN-002"
+      ],
+      "certification_name": "Ascendra Junior Mathematical Scholar",
+      "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop",
+      "rating": 4.97,
+      "total_enrolled": 740,
+      "featured": false,
+      "key_outcomes": [
+        "91.4% Achievement of AL1/AL2 score",
+        "Elimination of careless calculation anomalies",
+        "Olympiad grade heuristic problem solving"
+      ]
+    },
+    {
+      "id": "CRS-TECH-02",
+      "code": "CYB-880",
+      "title": "Enterprise Cybersecurity & Zero-Trust Architecture",
+      "category": "Cyber Security",
+      "universe": "technology",
+      "level": "Advanced",
+      "duration": "12 Weeks",
+      "hours_total": 96,
+      "format": "Cyber Range Simulation & Hybrid",
+      "fee_sgd": 4800,
+      "skillsfuture_eligible": true,
+      "skillsfuture_subsidy_sgd": 3360,
+      "net_fee_sgd": 1440,
+      "eligibility": "Security analysts, network engineers, IT managers, or computer science graduates.",
+      "prerequisites": "Networking principles (TCP/IP), Linux command line, basic scripting.",
+      "overview": "Train on live isolated cyber warfare ranges modeled on Singapore critical information infrastructure (CII). Learn red-team adversary emulation and modern zero-trust enterprise defense.",
+      "syllabus": [
+        {
+          "module_number": 1,
+          "title": "Zero-Trust Identity & Micro-Segmentation",
+          "topics": [
+            "BeyondCorp architecture",
+            "Identity-aware proxies & SAML/OAuth security",
+            "Software-defined perimeters"
+          ]
+        },
+        {
+          "module_number": 2,
+          "title": "Threat Hunting & SIEM/XDR Forensics",
+          "topics": [
+            "Splunk & Elastic query crafting",
+            "Memory dump analysis with Volatility",
+            "Sigma rules & MITRE ATT&CK mapping"
+          ]
+        },
+        {
+          "module_number": 3,
+          "title": "Cloud Security Posture Management (CSPM)",
+          "topics": [
+            "AWS & Azure IAM misconfiguration exploitation",
+            "Kubernetes pod escape containment",
+            "Terraform security linting"
+          ]
+        },
+        {
+          "module_number": 4,
+          "title": "Live Cyber Range War Simulation",
+          "topics": [
+            "Ransomware blast radius containment",
+            "C-suite regulatory breach notification (PDPA / CSA)",
+            "Post-incident recovery protocols"
+          ]
+        }
+      ],
+      "next_cohort_date": "20 Nov 2026",
+      "schedule_summary": "Wednesdays 7:00 PM - 10:00 PM & Sundays 10:00 AM - 2:00 PM",
+      "campus_locations": [
+        "Paya Lebar Cyber Quarter",
+        "One-North Tech Nexus"
+      ],
+      "trainer_ids": [
+        "TRN-007"
+      ],
+      "certification_name": "Ascendra Certified Zero-Trust Specialist (ACZS)",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop",
+      "rating": 4.97,
+      "total_enrolled": 310,
+      "featured": false,
+      "key_outcomes": [
+        "Hands-on command of live cyber range scenarios",
+        "Full compliance with CSA Singapore CII guidelines",
+        "Fast-track credential recognized by financial institutions"
+      ]
+    },
+    {
+      "id": "CRS-CRTV-01",
+      "code": "DSG-905",
+      "title": "Spatial Interface Design & VisionOS Architecture",
+      "category": "Creative Design",
+      "universe": "creative",
+      "level": "Advanced",
+      "duration": "10 Weeks",
+      "hours_total": 80,
+      "format": "Studio Lab & Vision Pro Hardware Suite",
+      "fee_sgd": 4500,
+      "skillsfuture_eligible": true,
+      "skillsfuture_subsidy_sgd": 3150,
+      "net_fee_sgd": 1350,
+      "eligibility": "Product designers, 3D artists, creative technologists, or UX architects.",
+      "prerequisites": "Figma master proficiency, basic familiarity with 3D space or Unity.",
+      "overview": "Transition from screen-bound glass rectangles into full volumetric reality. Master depth cues, gaze & pinch ergonomics, physical lighting rendering, and spatial design systems.",
+      "syllabus": [
+        {
+          "module_number": 1,
+          "title": "Volumetric Spatial Ergonomics & Anatomy",
+          "topics": [
+            "Human field of view & neck comfort envelopes",
+            "Gaze tracking latency & targeted affordances",
+            "Spatial audio positioning"
+          ]
+        },
+        {
+          "module_number": 2,
+          "title": "Spatial Design Systems in Figma & Spline",
+          "topics": [
+            "Glassmorphism and dynamic specular highlights",
+            "3D variable elevation tokens",
+            "Z-axis depth hierarchy principles"
+          ]
+        },
+        {
+          "module_number": 3,
+          "title": "Prototyping in Swift / Reality Composer Pro",
+          "topics": [
+            "RealityKit entity component systems",
+            "Hand gesture trigger states",
+            "Spatial window management"
+          ]
+        },
+        {
+          "module_number": 4,
+          "title": "Capstone: Enterprise Spatial Workspace",
+          "topics": [
+            "Design an enterprise spatial data cockpit",
+            "User testing on real Apple Vision Pro hardware",
+            "Interactive portfolio presentation"
+          ]
+        }
+      ],
+      "next_cohort_date": "15 Nov 2026",
+      "schedule_summary": "Thursdays 7:00 PM - 10:00 PM & Saturdays 2:00 PM - 6:00 PM",
+      "campus_locations": [
+        "Tanjong Pagar Design Loft",
+        "One-North Tech Nexus"
+      ],
+      "trainer_ids": [
+        "TRN-006"
+      ],
+      "certification_name": "Ascendra Spatial Experience Architect (ASEA)",
+      "image": "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?q=80&w=1200&auto=format&fit=crop",
+      "rating": 4.99,
+      "total_enrolled": 240,
+      "featured": true,
+      "key_outcomes": [
+        "Portfolio containing 2 live spatial reality applications",
+        "Direct critique from international design jury",
+        "Full access to Vision Pro hardware labs"
+      ]
+    },
+    {
+      "id": "CRS-PROF-01",
+      "code": "EXC-990",
+      "title": "Boardroom Governance & High-Stakes Negotiation",
+      "category": "Professional Development",
+      "universe": "professional",
+      "level": "Executive",
+      "duration": "8 Weeks",
+      "hours_total": 64,
+      "format": "Executive Suite Retreat & Simulation",
+      "fee_sgd": 6400,
+      "skillsfuture_eligible": false,
+      "skillsfuture_subsidy_sgd": 0,
+      "net_fee_sgd": 6400,
+      "eligibility": "Senior executives, aspiring independent board directors, managing partners.",
+      "prerequisites": "Over 8 years leadership or fiduciary experience.",
+      "overview": "Master the unseen dynamics of boardroom decision-making. Learn multi-party coalition building, crisis PR steering, and tactical behavioral negotiation under extreme regulatory scrutiny.",
+      "syllabus": [
+        {
+          "module_number": 1,
+          "title": "Fiduciary Duty & Singapore Code of Corporate Governance",
+          "topics": [
+            "Director liabilities under SGX listing rules",
+            "Audit committee oversight & ESG compliance",
+            "Managing conflicts of interest"
+          ]
+        },
+        {
+          "module_number": 2,
+          "title": "Tactical Empathy & FBI-Style Hostage Negotiation",
+          "topics": [
+            "Calibrated questions & labeling techniques",
+            "Managing aggressive counter-parties",
+            "Deadlock resolution without concessions"
+          ]
+        },
+        {
+          "module_number": 3,
+          "title": "Hostile Takeovers & Activist Defense Strategies",
+          "topics": [
+            "Poison pills vs white knight alliances",
+            "Proxy battle voter solicitation",
+            "Regulatory mediation with MAS & SGX"
+          ]
+        },
+        {
+          "module_number": 4,
+          "title": "Live Boardroom War-Game Simulation",
+          "topics": [
+            "Simulated catastrophic cybersecurity breach at listed firm",
+            "Live hostile press conference confrontation",
+            "Board vote adjudication by senior judges"
+          ]
+        }
+      ],
+      "next_cohort_date": "30 Nov 2026",
+      "schedule_summary": "Alternate Saturdays 9:00 AM - 5:00 PM",
+      "campus_locations": [
+        "Marina Bay Financial Centre"
+      ],
+      "trainer_ids": [
+        "TRN-008"
+      ],
+      "certification_name": "Ascendra Certified Board Director Fellow (CBDF)",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1200&auto=format&fit=crop",
+      "rating": 4.98,
+      "total_enrolled": 195,
+      "featured": false,
+      "key_outcomes": [
+        "Accredited qualification aligned with Singapore Institute of Directors",
+        "Elite executive alumni network across SGX listed firms",
+        "High-stress simulation readiness"
+      ]
+    }
+  ],
+  "learning_pathways": [
+    {
+      "id": "pw-ai-engineering",
+      "title": "Enterprise AI & Autonomous Systems Architect",
+      "category": "Technology Frontier",
+      "duration_months": 9,
+      "target_role": "Lead AI Engineer / Autonomous Systems Architect",
+      "avg_salary_sgd": "$14,500 / month",
+      "salary_uplift": "+68% Uplift",
+      "hiring_partners": [
+        "GovTech Singapore",
+        "Grab",
+        "DBS Bank",
+        "Shopee",
+        "Google Asia Pacific"
+      ],
+      "steps": [
+        {
+          "step_number": 1,
+          "stage_name": "Student Profile",
+          "title": "Diagnostic Assessment & Technical Alignment",
+          "description": "Comprehensive 360 evaluation of Python, linear algebra, and data pipelines to construct an individualized velocity roadmap.",
+          "details": [
+            "Algorithmic baseline benchmarking",
+            "Dedicated Senior Technical Mentor assignment",
+            "Personal GPU cloud cluster allocation"
+          ],
+          "highlight": "Day 1 to 14"
+        },
+        {
+          "step_number": 2,
+          "stage_name": "Ascendra Program",
+          "title": "Intensive Agentic Architecture & LLM Engineering",
+          "description": "112 hours of synchronous high-velocity engineering covering LangGraph, vector geometry, RAG systems, and cluster orchestration.",
+          "details": [
+            "Bi-weekly code reviews by ex-DeepMind engineers",
+            "Real-time latency profiling on Nvidia H100s",
+            "Automated unit-test CI/CD gating"
+          ],
+          "highlight": "Month 1 to 4"
+        },
+        {
+          "step_number": 3,
+          "stage_name": "Industry Projects",
+          "title": "Enterprise Sandbox Capstone with Corporate Partners",
+          "description": "Deploying a live autonomous compliance copilot for a Tier-1 Singapore bank processing real anonymized financial filings.",
+          "details": [
+            "Handling 10,000+ simulated concurrent queries",
+            "SOC2 and MAS TRM security audit clearance",
+            "Direct presentation to partner VP of Technology"
+          ],
+          "highlight": "Month 5 to 6"
+        },
+        {
+          "step_number": 4,
+          "stage_name": "Global Certification",
+          "title": "ACAA Defense & Formal Board Examination",
+          "description": "Live whiteboarding and system architecture defense in front of an external industry accreditation panel.",
+          "details": [
+            "System design stress-testing under simulated network failure",
+            "Immutable blockchain-verified credential",
+            "SkillsFuture WSQ National Accreditation"
+          ],
+          "highlight": "Month 7"
+        },
+        {
+          "step_number": 5,
+          "stage_name": "Career Outcome",
+          "title": "Exclusive Placement Syndicate & Compensation Negotiation",
+          "description": "Pre-arranged confidential interviews with hiring managers across Singapore's leading technology and sovereign wealth enterprises.",
+          "details": [
+            "Direct offer turnaround within 21 days",
+            "Compensation structuring support",
+            "6 months post-placement career coaching"
+          ],
+          "highlight": "Month 8 to 9"
+        }
+      ]
+    },
+    {
+      "id": "pw-academic-ivy",
+      "title": "Singapore-Cambridge Scholar to Global Ivy League",
+      "category": "Academic Excellence",
+      "duration_months": 12,
+      "target_role": "President's Scholar / Oxbridge / Ivy League Matriculation",
+      "avg_salary_sgd": "Top 1% National Percentile",
+      "salary_uplift": "98% A* / Distinction",
+      "hiring_partners": [
+        "NUS Faculty of Law / Medicine",
+        "Cambridge University",
+        "Stanford University",
+        "Imperial College London"
+      ],
+      "steps": [
+        {
+          "step_number": 1,
+          "stage_name": "Student Profile",
+          "title": "Cognitive Profile & Curriculum Gap Analysis",
+          "description": "Pinpointing underlying misconceptions in H2 Mathematics, Physics, and Economics via proprietary diagnostic algorithms.",
+          "details": [
+            "Cognitive heuristic assessment",
+            "Target university course alignment",
+            "Bespoke pace calibration"
+          ],
+          "highlight": "Month 1"
+        },
+        {
+          "step_number": 2,
+          "stage_name": "Ascendra Program",
+          "title": "Deep Conceptual Synthesis & Exam Mechanics",
+          "description": "Weekly small-group mastery sessions led by former Chief Examiners dissecting Cambridge marking schemes.",
+          "details": [
+            "Timed stress simulations",
+            "Synoptic question breakdown",
+            "Examiner rubric internalization"
+          ],
+          "highlight": "Month 2 to 6"
+        },
+        {
+          "step_number": 3,
+          "stage_name": "Industry Projects",
+          "title": "Academic Research Monograph & Olympiad Mentorship",
+          "description": "Publishing an original analytical research paper under university professor guidance to anchor admissions essays.",
+          "details": [
+            "Empirical econometric or computational modeling",
+            "Mentorship from published researchers",
+            "Submission to international high school symposiums"
+          ],
+          "highlight": "Month 7 to 8"
+        },
+        {
+          "step_number": 4,
+          "stage_name": "Global Certification",
+          "title": "Mock Distinction Clearance & Recommendation Letters",
+          "description": "Achieving consecutive distinction thresholds in Ascendra's rigorous proctored mock examinations.",
+          "details": [
+            "President's Scholar testimonial review",
+            "Cambridge-standard transcript verification",
+            "Interview preparation for Oxbridge admissions"
+          ],
+          "highlight": "Month 9 to 10"
+        },
+        {
+          "step_number": 5,
+          "stage_name": "Career Outcome",
+          "title": "Offer Acceptance & Scholarship Matriculation",
+          "description": "Securing PSC scholarships, GIC/Temasek undergraduate awards, and Ivy League admission offers.",
+          "details": [
+            "Scholarship interview coaching",
+            "Matriculation advising",
+            "Lifelong Ascendra Alumni Fellowship induction"
+          ],
+          "highlight": "Month 11 to 12"
+        }
+      ]
+    },
+    {
+      "id": "pw-fintech-executive",
+      "title": "Executive FinTech Leadership & Cross-Border Capital",
+      "category": "Business & Capital",
+      "duration_months": 6,
+      "target_role": "Chief Strategy Officer / Head of FinTech / Venture Partner",
+      "avg_salary_sgd": "$22,000 / month",
+      "salary_uplift": "+54% Uplift",
+      "hiring_partners": [
+        "Temasek Holdings",
+        "Standard Chartered",
+        "Ant International",
+        "Vertex Ventures",
+        "SGX Group"
+      ],
+      "steps": [
+        {
+          "step_number": 1,
+          "stage_name": "Student Profile",
+          "title": "Executive Governance & Deal History Audit",
+          "description": "Evaluating past transaction experience, regulatory exposure, and regional growth ambitions.",
+          "details": [
+            "Confidential peer cohort matching",
+            "C-Suite career aspiration mapping",
+            "Board readiness diagnostic"
+          ],
+          "highlight": "Month 1"
+        },
+        {
+          "step_number": 2,
+          "stage_name": "Ascendra Program",
+          "title": "FinTech Regulatory Architecture & Asian Capital Scaling",
+          "description": "Mastering MAS Payment Services Act (PSA), tokenized asset frameworks, cross-border remittance, and VC syndication.",
+          "details": [
+            "Case studies on MAS regulatory sandbox approvals",
+            "Cross-border tax treaties (Singapore, Hong Kong, Indonesia)",
+            "Algorithmic treasury governance"
+          ],
+          "highlight": "Month 2 to 3"
+        },
+        {
+          "step_number": 3,
+          "stage_name": "Industry Projects",
+          "title": "Cross-Border M&A Structuring & Sandbox Pilot",
+          "description": "Formulating a compliant financial architecture for a digital payment rail across 4 Southeast Asian jurisdictions.",
+          "details": [
+            "Defense in front of former MAS and SGX regulators",
+            "Structuring term sheets and LP agreements",
+            "Capital efficiency modeling"
+          ],
+          "highlight": "Month 4"
+        },
+        {
+          "step_number": 4,
+          "stage_name": "Global Certification",
+          "title": "Ascendra Executive Diploma & SID Board Credentials",
+          "description": "Graduation with certified credentials recognized across regional sovereign and venture funds.",
+          "details": [
+            "Executive accreditation",
+            "SID Director register qualification",
+            "Keynote defense"
+          ],
+          "highlight": "Month 5"
+        },
+        {
+          "step_number": 5,
+          "stage_name": "Career Outcome",
+          "title": "Executive Board Placement & Syndicate Access",
+          "description": "Transition into senior executive or advisory roles with equity participation.",
+          "details": [
+            "Syndicate co-investment access",
+            "Board seat advisory appointments",
+            "Ascendra Marina Bay Club membership"
+          ],
+          "highlight": "Month 6"
+        }
+      ]
+    }
+  ],
+  "trainers": [
+    {
+      "id": "TRN-001",
+      "name": "Dr. Aaron Chen",
+      "title": "Chief AI Fellow & Dist. Systems Architect",
+      "credentials": "Ph.D. Computer Science (Stanford), Ex-DeepMind Research Scientist",
+      "quote": "True mastery is not about downloading an open-source model; it is about engineering deterministic reliability into probabilistic systems.",
+      "story": "Aaron spent 8 years at Google DeepMind and Stanford AI Lab before returning to Singapore to spearhead sovereign language model architectures. He has advised GovTech and major financial institutions on deploying secure, autonomous agentic networks at scale. At Ascendra, his studios are legendary for their zero-compromise engineering standards and real-world production deployments.",
+      "industry_expertise": [
+        "Autonomous Multi-Agent Networks",
+        "Distributed GPU Orchestration",
+        "Vector Geometry",
+        "Prompt Injection Defense"
+      ],
+      "achievements": [
+        "Published 14 papers in NeurIPS & ICML",
+        "Co-architected Singapore Smart Nation AI pipelines",
+        "Recognized among Top 30 AI Leaders in Southeast Asia"
+      ],
+      "experience_years": 15,
+      "previous_orgs": [
+        "Google DeepMind",
+        "Stanford AI Lab",
+        "GovTech Singapore"
+      ],
+      "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1000&auto=format&fit=crop",
+      "courses_taught": [
+        "CRS-TECH-01"
+      ],
+      "campus_base": "One-North Tech Nexus"
+    },
+    {
+      "id": "TRN-002",
+      "name": "Prof. Mei-Ling Zhou",
+      "title": "Dean of Academic Sciences & Senior Fellow",
+      "credentials": "M.Ed. (Harvard), B.Sc. First Class Hons (Cambridge), Ex-MOE Chief Examiner",
+      "quote": "When a student understands the underlying architectural beauty of a mathematical proof, exam anxiety evaporates and pure clarity takes over.",
+      "story": "With over two decades shaping Singapore's national curriculum, Prof. Mei-Ling Zhou has mentored thousands of students from Raffles Institution, Hwa Chong Institution, and Anglo-Chinese School (Independent) to national top honors. Her proprietary heuristic frameworks have been studied by education ministries across the Commonwealth.",
+      "industry_expertise": [
+        "Singapore-Cambridge H2 Economics",
+        "PSLE Visual Heuristics",
+        "Olympiad Mathematical Modeling",
+        "Cognitive Diagnostic Pedagogy"
+      ],
+      "achievements": [
+        "Recipient of the National Education Service Medal",
+        "Author of 6 definitive textbooks on Singapore Heuristics",
+        "Over 94% distinction track record for 18 consecutive years"
+      ],
+      "experience_years": 22,
+      "previous_orgs": [
+        "Ministry of Education Singapore",
+        "Cambridge International Examinations",
+        "Raffles Institution"
+      ],
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000&auto=format&fit=crop",
+      "courses_taught": [
+        "CRS-ACAD-01",
+        "CRS-ACAD-02"
+      ],
+      "campus_base": "Orchard Central Learning Hub"
+    },
+    {
+      "id": "TRN-003",
+      "name": "Marcus Vance",
+      "title": "Managing Partner & Executive Fellow",
+      "credentials": "MBA (INSEAD), B.A. (Oxford), Former Managing Director at Temasek Portfolio Co.",
+      "quote": "In Asian enterprise, strategy is only 10% of the game; the remaining 90% is understanding cross-border regulatory nuance and emotional currency.",
+      "story": "Marcus has directed over $2.4 billion in cross-border acquisitions and venture growth throughout Southeast Asia and Greater China. Having navigated economic crises and hyper-growth venture cycles, he leads Ascendra's Executive suites with unfiltered, war-room realism that textbooks cannot replicate.",
+      "industry_expertise": [
+        "Cross-Border M&A",
+        "Venture Capital Governance",
+        "ASEAN Market Expansion",
+        "Boardroom Shareholder Strategy"
+      ],
+      "achievements": [
+        "Orchestrated 18 successful cross-border acquisitions",
+        "Served as Independent Director on 4 SGX-listed boards",
+        "Adjunct Professor of Private Equity at INSEAD Asia"
+      ],
+      "experience_years": 20,
+      "previous_orgs": [
+        "Temasek Holdings affiliate",
+        "INSEAD Asia",
+        "Morgan Stanley"
+      ],
+      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1000&auto=format&fit=crop",
+      "courses_taught": [
+        "CRS-BIZ-01"
+      ],
+      "campus_base": "Marina Bay Financial Centre"
+    },
+    {
+      "id": "TRN-005",
+      "name": "Kenji Takahashi",
+      "title": "Master of Bilateral Protocol & Diplomatic Keigo",
+      "credentials": "M.A. International Relations (Tokyo University), Senior Court & Conference Interpreter",
+      "quote": "A single word spoken in Keigo carries five centuries of unspoken etiquette. Precision in language commands instant reverence.",
+      "story": "Kenji has provided simultaneous interpretation for Japanese prime ministers, cabinet ministers, and leaders of Fortune 500 trading houses during bilateral summits in Singapore, Tokyo, and Davos. At Ascendra, he trains executives to negotiate seamlessly without the filter of interpreters.",
+      "industry_expertise": [
+        "Diplomatic Keigo Syntax",
+        "High-Context Negotiation",
+        "Tokyo Commercial Protocol",
+        "Bilateral Conflict Resolution"
+      ],
+      "achievements": [
+        "Official bilateral interpreter for 12 ASEAN-Japan Summits",
+        "Consultant to Singapore-Japan Chamber of Commerce",
+        "Author of 'The Silent Language of Japanese Boardrooms'"
+      ],
+      "experience_years": 18,
+      "previous_orgs": [
+        "Ministry of Foreign Affairs (Japan/ASEAN)",
+        "Tokyo University",
+        "JETRO Singapore"
+      ],
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1000&auto=format&fit=crop",
+      "courses_taught": [
+        "CRS-LANG-01"
+      ],
+      "campus_base": "Bugis Heritage Academy"
+    },
+    {
+      "id": "TRN-006",
+      "name": "Sarah Jenkins",
+      "title": "VP of Spatial Experience & Creative Director",
+      "credentials": "M.Des. (Royal College of Art, London), Former Design Lead at Stripe & Apple",
+      "quote": "When computing leaves the screen and enters three-dimensional reality, human attention becomes sacred. Design must be weightless.",
+      "story": "Sarah pioneered groundbreaking interface guidelines at Apple's Cupertino design campus and helped scale design systems at Stripe. Her vision at Ascendra is to train Singapore's next wave of spatial architects who design for immersive devices like Apple Vision Pro and ambient spatial displays.",
+      "industry_expertise": [
+        "Spatial Computing & VisionOS",
+        "Generative Motion Physics",
+        "Design Systems at Scale",
+        "Haptic Ergonomics"
+      ],
+      "achievements": [
+        "Winner of 3 Apple Design Awards",
+        "Featured Keynote Speaker at Awwwards Tokyo & San Francisco",
+        "Patents in 3D multi-layered spatial interaction"
+      ],
+      "experience_years": 14,
+      "previous_orgs": [
+        "Apple Cupertino",
+        "Stripe",
+        "Royal College of Art"
+      ],
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1000&auto=format&fit=crop",
+      "courses_taught": [
+        "CRS-CRTV-01"
+      ],
+      "campus_base": "Tanjong Pagar Design Loft"
+    },
+    {
+      "id": "TRN-007",
+      "name": "David Tan",
+      "title": "Distinguished Fellow in Cyber Warfare Defense",
+      "credentials": "B.Eng. (NUS), CISSP, OSCP, Former CSA National Cyber Threat Director",
+      "quote": "In cybersecurity, you either simulate the adversary's worst-case scenario today, or you become their trophy headline tomorrow.",
+      "story": "David directed critical infrastructure threat defense operations protecting Singapore's electrical grid, telecommunications, and banking clearinghouses. He brings unmatched operational war-room authenticity to Ascendra's isolated cyber ranges.",
+      "industry_expertise": [
+        "Zero-Trust Microsegmentation",
+        "Adversary Emulation",
+        "Nation-State Threat Hunting",
+        "Incident Crisis Containment"
+      ],
+      "achievements": [
+        "Authored National CII Defense Standard Guidelines",
+        "Led Red Team exercises across 20+ ASEAN critical institutions",
+        "Instructor of the Year at Cyber Security Agency Singapore"
+      ],
+      "experience_years": 17,
+      "previous_orgs": [
+        "Cyber Security Agency of Singapore (CSA)",
+        "DBS Bank Threat Intel",
+        "NUS Security Lab"
+      ],
+      "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1000&auto=format&fit=crop",
+      "courses_taught": [
+        "CRS-TECH-02"
+      ],
+      "campus_base": "Paya Lebar Cyber Quarter"
+    },
+    {
+      "id": "TRN-008",
+      "name": "Rachel Adams",
+      "title": "Chairperson of Ascendra Institute of Governance",
+      "credentials": "LL.B. (King's College London), Senior Accredited Director (SID), Bar of England & Wales",
+      "quote": "Authority in the boardroom is never demanded; it is projected through unassailable fiduciary rigor and absolute emotional composure.",
+      "story": "Rachel has served as lead independent director across four SGX-listed conglomerates and represented multinational syndicates in complex shareholder litigation. Her intense war-room simulations prepare leaders for crisis meetings where millions hang on every word.",
+      "industry_expertise": [
+        "Boardroom Fiduciary Strategy",
+        "Shareholder Activist Defense",
+        "Crisis Press Strategy",
+        "SGX Listing Regulatory Compliance"
+      ],
+      "achievements": [
+        "Fellow of the Singapore Institute of Directors",
+        "Lead Counsel on landmark ASEAN cross-border merger disputes",
+        "Recognized as Corporate Governance Icon by The Business Times"
+      ],
+      "experience_years": 24,
+      "previous_orgs": [
+        "Singapore Institute of Directors",
+        "Allen & Gledhill alumnus",
+        "SGX Listed Boards"
+      ],
+      "image": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1000&auto=format&fit=crop",
+      "courses_taught": [
+        "CRS-PROF-01"
+      ],
+      "campus_base": "Marina Bay Financial Centre"
+    }
+  ],
+  "trial_classes": [
+    {
+      "id": "TRL-101",
+      "course_id": "CRS-TECH-01",
+      "title": "Building Your First Autonomous LLM Agent in 90 Minutes",
+      "trainer_id": "TRN-001",
+      "campus_id": "CMP-002",
+      "date_time": "Every Saturday, 11:00 AM - 12:30 PM",
+      "duration_mins": 90,
+      "mode": "In-Campus GPU Studio & Live Stream",
+      "seats_total": 25,
+      "seats_remaining": 4,
+      "agenda": [
+        "Hands-on connection to Ascendra H100 GPU compute cluster",
+        "Configuring a LangGraph state machine with deterministic tools",
+        "Deploying live agent with automated error-correction loops"
+      ],
+      "key_takeaway": "Walk away with a working GitHub repo and verified cloud deployment token.",
+      "fee_sgd": 0
+    },
+    {
+      "id": "TRL-102",
+      "course_id": "CRS-ACAD-01",
+      "title": "Deconstructing Cambridge 25-Mark Economics Evaluation",
+      "trainer_id": "TRN-002",
+      "campus_id": "CMP-003",
+      "date_time": "Every Sunday, 2:00 PM - 3:30 PM",
+      "duration_mins": 90,
+      "mode": "Orchard Masterclass Suite",
+      "seats_total": 20,
+      "seats_remaining": 2,
+      "agenda": [
+        "Analysis of actual 2025/2026 Cambridge H2 Economics mark schemes",
+        "The 4-step synthesis technique that elevates 'B' essays to 'A'",
+        "Live essay critique by former MOE Chief Examiner"
+      ],
+      "key_takeaway": "Receive personal diagnostic feedback on your diagnostic essay submission.",
+      "fee_sgd": 0
+    },
+    {
+      "id": "TRL-103",
+      "course_id": "CRS-BIZ-01",
+      "title": "Venture Term Sheet Anatomy & Asian Liquidation Traps",
+      "trainer_id": "TRN-003",
+      "campus_id": "CMP-001",
+      "date_time": "Alternate Tuesdays, 7:00 PM - 8:30 PM",
+      "duration_mins": 90,
+      "mode": "Marina Bay Executive Lounge",
+      "seats_total": 18,
+      "seats_remaining": 3,
+      "agenda": [
+        "Dissecting real unredacted Series B term sheets from ASEAN deals",
+        "Identifying predatory participating preferred dividend clauses",
+        "Interactive simulation: Founder vs VC negotiation battle"
+      ],
+      "key_takeaway": "Master the 3 non-negotiable clauses every Asian founder must enforce.",
+      "fee_sgd": 0
+    },
+    {
+      "id": "TRL-104",
+      "course_id": "CRS-CRTV-01",
+      "title": "Designing for Apple Vision Pro: Spatial Depth & Physics",
+      "trainer_id": "TRN-006",
+      "campus_id": "CMP-006",
+      "date_time": "Every Thursday, 7:30 PM - 9:00 PM",
+      "duration_mins": 90,
+      "mode": "Tanjong Pagar Design Loft",
+      "seats_total": 16,
+      "seats_remaining": 5,
+      "agenda": [
+        "Hands-on trial wearing Apple Vision Pro hardware in studio",
+        "Understanding gaze tracking, dynamic lighting, and depth tokens",
+        "Constructing a spatial modal interaction in Spline & Figma"
+      ],
+      "key_takeaway": "Experience your personal UI designs live in spatial augmented reality.",
+      "fee_sgd": 0
+    }
+  ],
+  "learning_formats": [
+    {
+      "id": "fmt-online",
+      "title": "Live Interactive Virtual",
+      "slug": "online-interactive",
+      "tagline": "Global reach with real-time peer & mentor intimacy",
+      "description": "Ultra-low-latency studio broadcasts featuring multi-camera live coding, shared digital whiteboards, and immediate 1-on-1 breakout rooms with dedicated teaching fellows.",
+      "best_for": "Busy professionals, frequent regional travelers, overseas scholars",
+      "intensity": "Medium | 6 - 8 hrs / week",
+      "schedule_flexibility": "High (Recorded backup with 24/7 AI tutor access)",
+      "features": [
+        "Dedicated cloud dev sandbox & GPU cluster access",
+        "Instant code review via Git integration",
+        "Virtual collaborative study lounges open 24/7",
+        "Digital credentialing recognized worldwide"
+      ],
+      "image": "https://images.unsplash.com/photo-1588702547919-26089e690ecc?q=80&w=1000&auto=format&fit=crop",
+      "accent": "#38BDF8"
+    },
+    {
+      "id": "fmt-hybrid",
+      "title": "Hybrid Studio Flex",
+      "slug": "hybrid-studio",
+      "tagline": "The golden synthesis of campus immersion and digital agility",
+      "description": "Bi-weekly in-person studio sprints at any of our 10 Singapore campuses combined with modular asynchronous micro-learning and weekly evening digital roundtables.",
+      "best_for": "Singapore residents balancing demanding careers with deep learning",
+      "intensity": "High | 10 - 12 hrs / week",
+      "schedule_flexibility": "Moderate (Choice of weekday evening or weekend campus slots)",
+      "features": [
+        "Unlimited hot-desking at all 10 Ascendra campuses",
+        "Face-to-face capstone workshops with industry trainers",
+        "Complimentary artisanal coffee & quiet study pods",
+        "Networking mixers after campus Saturday sessions"
+      ],
+      "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1000&auto=format&fit=crop",
+      "accent": "#6EE7B7"
+    },
+    {
+      "id": "fmt-weekend",
+      "title": "Weekend Executive Intensive",
+      "slug": "weekend-executive",
+      "tagline": "Dedicated Saturdays designed for senior decision-makers",
+      "description": "High-density full-day immersions at our Marina Bay Financial Centre panoramic campus. Includes gourmet executive dining, confidential boardroom simulations, and peer masterminds.",
+      "best_for": "C-Suite, Managing Directors, Founders, Investment Bankers",
+      "intensity": "Very High | 8 hrs every alternate Saturday",
+      "schedule_flexibility": "Fixed Saturdays with private concierge reschedule options",
+      "features": [
+        "Curated cohort of senior executives with strict NDA agreements",
+        "Exclusive guest masterclasses with sovereign fund leaders",
+        "Catered executive breakfast, lunch, and sunset cocktail mixers",
+        "Private chauffeur drop-off voucher at MBFC Tower"
+      ],
+      "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1000&auto=format&fit=crop",
+      "accent": "#FFD166"
+    },
+    {
+      "id": "fmt-private",
+      "title": "Private 1-on-1 Bespoke Master Coaching",
+      "slug": "private-coaching",
+      "tagline": "Uncompromised 1:1 guidance from national industry titans",
+      "description": "A fully custom curriculum tailored to the specific confidential objectives of an executive, diplomatic delegate, or prodigy scholar. You dictate the schedule, location, and speed.",
+      "best_for": "Family office principals, public figures, accelerated scholars",
+      "intensity": "Bespoke Pace | Tailored to client calendar",
+      "schedule_flexibility": "Ultimate (At campus, private office, or secure virtual line)",
+      "features": [
+        "Direct personal WhatsApp & calendar line to designated Fellow",
+        "Confidential NDA-protected project reviews",
+        "Custom diagnostic benchmark tests engineered per student",
+        "Priority invitation to closed-door sovereign roundtables"
+      ],
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1000&auto=format&fit=crop",
+      "accent": "#FF6B35"
+    },
+    {
+      "id": "fmt-corporate",
+      "title": "Corporate Enterprise Transformation",
+      "slug": "corporate-training",
+      "tagline": "Scalable workforce upskilling for multinational organizations",
+      "description": "Custom-designed training programs for enterprise teams across banking, telecommunications, logistics, and public sector agencies. Backed by measurable ROI analytics and SkillsFuture enterprise subsidies.",
+      "best_for": "HR leaders, Chief Learning Officers, Division Heads",
+      "intensity": "Flexible Cohorts | 2-Day Bootcamps or Multi-Month Academies",
+      "schedule_flexibility": "On-site at client headquarters or Ascendra campuses",
+      "features": [
+        "Up to 90% funding offset via SkillsFuture Enterprise Credit (SFEC)",
+        "Automated HR completion dashboards with competency tracking",
+        "Customized case studies using client industry data",
+        "Post-training productivity audits conducted at 90 days"
+      ],
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1000&auto=format&fit=crop",
+      "accent": "#A78BFA"
+    },
+    {
+      "id": "fmt-bootcamp",
+      "title": "12-Week Immersion Studio Bootcamp",
+      "slug": "studio-bootcamp",
+      "tagline": "Full-time total transformation with guaranteed outcomes",
+      "description": "An uncompromising 40-hour-per-week total immersion program designed to take aspiring technologists, designers, and career switchers to elite junior-to-mid tier employment readiness.",
+      "best_for": "Career pivoters, recent graduates, returning workforce",
+      "intensity": "Extreme | 40 hrs / week full-time",
+      "schedule_flexibility": "Full-time commitment required (Monday to Friday)",
+      "features": [
+        "Daily standups, sprint reviews, and live production code deploys",
+        "100% money-back career placement guarantee contract",
+        "Personal career manager and interview simulator",
+        "Direct graduation presentation day to 40+ hiring companies"
+      ],
+      "image": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=1000&auto=format&fit=crop",
+      "accent": "#F43F5E"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "CERT-001",
+      "title": "Ascendra Certified Autonomous AI Architect (ACAA)",
+      "awarding_body": "Global AI Council & Ascendra Institute of Technology",
+      "accreditation_level": "Tier-1 Enterprise Professional",
+      "recognition_scope": "Recognized across Singapore GovTech, MAS FinTech Directory, and 120+ MNCs",
+      "career_benefits": [
+        "Verified credential badge with immutable cryptographic proof",
+        "Direct entry to GovTech & Grab senior engineering interview fast-tracks",
+        "Eligibility for $15,000 SGD mid-career wage benchmark uplift",
+        "Lifetime access to Ascendra AI Engineering Research Symposia"
+      ],
+      "journey_steps": [
+        {
+          "stage": "Stage 01",
+          "phase_title": "Deep Theoretical Mastery",
+          "duration": "Weeks 1 - 4",
+          "description": "Rigorous algorithmic examination of vector mathematics, transformer topologies, and multi-agent systems.",
+          "deliverable": "Written & code examination (85% pass threshold)"
+        },
+        {
+          "stage": "Stage 02",
+          "phase_title": "Continuous Assessment Labs",
+          "duration": "Weeks 5 - 8",
+          "description": "Eight proctored coding sprints building production components with strict performance and latency budgets.",
+          "deliverable": "Audited Git repository with passing CI test suites"
+        },
+        {
+          "stage": "Stage 03",
+          "phase_title": "Enterprise Sandboxed Capstone",
+          "duration": "Weeks 9 - 12",
+          "description": "Deploying a live multi-agent system solving a real-world enterprise workflow challenge.",
+          "deliverable": "Production service running on isolated cloud cluster"
+        },
+        {
+          "stage": "Stage 04",
+          "phase_title": "Viva Voce & Architecture Defense",
+          "duration": "Week 13",
+          "description": "Oral defense in front of a panel comprising 3 ex-FAANG technical fellows and enterprise CTOs.",
+          "deliverable": "System architecture defense and failure triage"
+        },
+        {
+          "stage": "Stage 05",
+          "phase_title": "Credential Issue & Placement Fast-Track",
+          "duration": "Week 14 onwards",
+          "description": "Conferment of title and dispatch to top tier hiring partners.",
+          "deliverable": "Cryptographic credential and recruiter introduction"
+        }
+      ],
+      "badge_image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "id": "CERT-002",
+      "title": "Ascendra Executive Diploma in Asian Enterprise Leadership",
+      "awarding_body": "Ascendra Executive Council & Singapore Institute of Governance",
+      "accreditation_level": "C-Suite & Board Executive Standard",
+      "recognition_scope": "Endorsed by Singapore Institute of Directors (SID) Partner Network",
+      "career_benefits": [
+        "Accreditation suitable for SGX Independent Director nomination disclosures",
+        "Exclusive induction into the Marina Bay Founders & Directors Roundtable",
+        "Priority access to regional co-investment syndicates",
+        "Executive career concierge services for non-executive director roles"
+      ],
+      "journey_steps": [
+        {
+          "stage": "Stage 01",
+          "phase_title": "Fiduciary & Regulatory Immersion",
+          "duration": "Weeks 1 - 3",
+          "description": "Comprehensive analysis of SGX regulatory directives, MAS compliance, and regional ASEAN tax arbitrage.",
+          "deliverable": "Regulatory compliance assessment & memo"
+        },
+        {
+          "stage": "Stage 02",
+          "phase_title": "Live Crisis War-Room Simulation",
+          "duration": "Weeks 4 - 6",
+          "description": "Intensive 12-hour simulated boardroom crisis involving activist shareholders and hostile media.",
+          "deliverable": "Crisis action plan & board resolution drafting"
+        },
+        {
+          "stage": "Stage 03",
+          "phase_title": "Cross-Border M&A Defense",
+          "duration": "Weeks 7 - 9",
+          "description": "Constructing and defending a multi-million-dollar cross-border acquisition financing model.",
+          "deliverable": "Investment memorandum & term sheet defense"
+        },
+        {
+          "stage": "Stage 04",
+          "phase_title": "Board Evaluation & Peer Review",
+          "duration": "Week 10",
+          "description": "360-degree review conducted by veteran board directors and seasoned private equity partners.",
+          "deliverable": "Formal board candidacy readiness sign-off"
+        },
+        {
+          "stage": "Stage 05",
+          "phase_title": "Fellowship Conferment & Alumni Gala",
+          "duration": "Post-Program",
+          "description": "Annual Black-Tie Gala at Marina Bay Sands with regional sovereign wealth leaders.",
+          "deliverable": "Induction into Ascendra Fellows Registry"
+        }
+      ],
+      "badge_image": "https://images.unsplash.com/photo-1450133064473-71024230f91b?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "success_stories": [
+    {
+      "id": "SS-001",
+      "name": "Leonard Lim",
+      "previous_role": "Traditional Operations Executive at Local Shipping Firm ($3,800/mo)",
+      "current_role": "Lead AI Systems Architect at GovTech Singapore ($12,800/mo)",
+      "company": "GovTech Singapore",
+      "program_completed": "Applied Artificial Intelligence & Autonomous LLM Agents",
+      "salary_impact": "+236% Compensation Growth",
+      "timeframe": "14 Weeks Transformation",
+      "before": "Leonard was trapped in legacy logistics spreadsheet management with zero modern machine learning experience and anxiety about automation rendering his role obsolete.",
+      "learning": "Through Ascendra's One-North campus studio, Leonard built 8 production AI microservices, mastering vector geometry, LangGraph orchestration, and containerized GPU cluster deployments.",
+      "transformation": "Under Dr. Aaron Chen's direct mentorship, Leonard built an autonomous maritime trade customs clearance agent that cut tariff processing times from 4 days to 18 seconds.",
+      "outcome": "Secured 3 competitive offers before graduation, choosing GovTech to lead sovereign public sector AI agent pipelines with a life-changing salary increase.",
+      "quote": "Ascendra is not a boot camp. It is an intellectual forge. The standards were brutal, the mentorship was relentless, and it permanently elevated how I think.",
+      "image": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      "id": "SS-002",
+      "name": "Chloe Sim",
+      "previous_role": "JC2 Student struggling with H2 Economics ('E' grade in Mid-Years)",
+      "current_role": "President's Scholar & First Class Cambridge Economics Matriculant",
+      "company": "Cambridge University & PSC",
+      "program_completed": "A-Level Economics Excellence & Macroeconomic Policy",
+      "salary_impact": "Top 0.5% National Percentile Distinction",
+      "timeframe": "16 Weeks Mastery",
+      "before": "Chloe understood economic concepts theoretically but consistently scored low 'E' grades because her essays lacked the evaluative synthesis required by Cambridge examiners.",
+      "learning": "Joined Prof. Mei-Ling Zhou's weekend masterclass at Orchard campus. Learned how to synthesize real-world MAS exchange rate policy and craft structured 25-mark thesis arguments.",
+      "transformation": "Diagnosed specific reasoning blind spots within 2 weeks. Her essays transformed from formulaic textbook summaries into nuanced, mature policy critiques.",
+      "outcome": "Achieved a clean 'A' in H2 Economics at the GCE A-Levels, awarded the prestigious Singapore PSC Overseas Scholarship, and admitted to Cambridge University.",
+      "quote": "Prof. Zhou taught me how Cambridge examiners think. Once you see the rubric from the examiner's perspective, the exam stops being a gamble and becomes pure execution.",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      "id": "SS-003",
+      "name": "Bryan Ng",
+      "previous_role": "Mid-level Financial Analyst at Regional Bank ($6,200/mo)",
+      "current_role": "Vice President of FinTech Strategy at Ant International ($18,500/mo)",
+      "company": "Ant International",
+      "program_completed": "Business Leadership & Asian Scalability Program",
+      "salary_impact": "+198% Compensation Growth",
+      "timeframe": "10 Weeks Weekend Executive",
+      "before": "Bryan had strong spreadsheet capabilities but zero exposure to cross-border regulatory architecture, digital payment licensing, or boardroom M&A negotiation.",
+      "learning": "Attended the Marina Bay Financial Centre executive cohort, collaborating directly with former Temasek directors and analyzing real MAS regulatory sandbox applications.",
+      "transformation": "Drafted a complete cross-border liquidity settlement proposal for ASEAN e-wallets, presenting it during the graduation showcase to industry venture partners.",
+      "outcome": "Recruited directly by Ant International's leadership team to spearhead regional payment infrastructure expansion across Singapore, Malaysia, and Thailand.",
+      "quote": "The caliber of conversations at the Marina Bay campus is peerless. You sit in a room with directors from DBS, Grab, and Temasek, solving challenges that affect entire economies.",
+      "image": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      "id": "SS-004",
+      "name": "Natalie Teo",
+      "previous_role": "Junior Graphic Designer at Advertising Agency ($3,200/mo)",
+      "current_role": "Lead Spatial Experience Designer at Global Tech Giant ($11,400/mo)",
+      "company": "Global Tech Giant (Singapore HQ)",
+      "program_completed": "Spatial Interface Design & VisionOS Architecture",
+      "salary_impact": "+256% Compensation Growth",
+      "timeframe": "10 Weeks Studio Lab",
+      "before": "Natalie felt limited by traditional static banner and flat web design, fearing commoditization by simple automated generative image tools.",
+      "learning": "Joined Sarah Jenkins' spatial studio at Tanjong Pagar. Gained hands-on daily access to Apple Vision Pro hardware, spatial typography, and real-time 3D shaders in Spline.",
+      "transformation": "Engineered a revolutionary spatial medical visualization interface allowing surgeons to examine volumetric MRI scans with intuitive hand gestures.",
+      "outcome": "Her spatial capstone won the Ascendra Avant-Garde Prize and was acquired by a regional medical group. She stepped into a Lead Spatial Designer role within 30 days.",
+      "quote": "Ascendra pushed me out of flat 2D screens into spatial dimensions I had never imagined. It catapulted my career forward by at least five years.",
+      "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1000&auto=format&fit=crop"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "REV-001",
+      "author": "Sean Fernandez",
+      "role": "VP of Engineering, Sea Group",
+      "course_title": "Applied Artificial Intelligence & Autonomous LLM Agents",
+      "rating": 5,
+      "year": "2026",
+      "comment": "Ascendra's engineering curriculum is several orders of magnitude beyond any online course or university module in Singapore. They teach you how to write code for production workloads on real clusters. Dr. Aaron Chen is a national treasure.",
+      "verified": true,
+      "campus": "One-North Tech Nexus"
+    },
+    {
+      "id": "REV-002",
+      "author": "Jessica Low",
+      "role": "Parent of Raffles Girls' School PSLE Student",
+      "course_title": "PSLE Mathematics Mastery & Olympiad Heuristics",
+      "rating": 5,
+      "year": "2026",
+      "comment": "My daughter used to dread non-routine math problems and would freeze during school exam papers. After 4 months at Ascendra's Tampines campus, her spatial heuristics and speed skyrocketed. She achieved AL1 with total confidence.",
+      "verified": true,
+      "campus": "Tampines Regional Campus"
+    },
+    {
+      "id": "REV-003",
+      "author": "Farhan Malik",
+      "role": "Director of Digital Governance, MNC",
+      "course_title": "Enterprise Cybersecurity & Zero-Trust Architecture",
+      "rating": 5,
+      "year": "2026",
+      "comment": "The isolated cyber warfare range at Paya Lebar is extraordinary. Simulating real nation-state attack vectors against simulated Singapore banking infrastructure gave our entire security team battle-tested clarity.",
+      "verified": true,
+      "campus": "Paya Lebar Cyber Quarter"
+    },
+    {
+      "id": "REV-004",
+      "author": "Clementine Ong",
+      "role": "Regional Counsel, Japanese Trading House",
+      "course_title": "Japanese Language Professional & Corporate Keigo",
+      "rating": 5,
+      "year": "2026",
+      "comment": "Kenji-sensei's insights into Japanese corporate psychology and Keigo hierarchies are simply unattainable elsewhere. I was able to lead our Tokyo joint venture closing ceremony entirely in formal Keigo without an interpreter.",
+      "verified": true,
+      "campus": "Bugis Heritage Academy"
+    },
+    {
+      "id": "REV-005",
+      "author": "Victor Han",
+      "role": "Independent Director & Private Investor",
+      "course_title": "Boardroom Governance & High-Stakes Negotiation",
+      "rating": 5,
+      "year": "2026",
+      "comment": "Rachel Adams' courtroom and boardroom simulations are intense, exhausting, and utterly masterclass. The practical insights into SGX compliance and crisis communication saved our board hundreds of hours of potential litigation.",
+      "verified": true,
+      "campus": "Marina Bay Financial Centre"
+    }
+  ],
+  "scholarships": [
+    {
+      "id": "SCH-001",
+      "title": "Ascendra Future Leaders Fellowship",
+      "funding_amount": "100% Full Tuition Coverage ($6,400+ SGD)",
+      "funding_type": "Full Merit Fellowship",
+      "eligibility": [
+        "Singapore Citizens & Permanent Residents under 35 years old",
+        "Demonstrated track record of academic excellence or exceptional leadership",
+        "Commitment to contributing 40 hours of peer mentorship upon graduation"
+      ],
+      "benefits": [
+        "100% full tuition waiver across any advanced Ascendra program",
+        "Quarterly private roundtables with sovereign fund and enterprise leaders",
+        "Guaranteed placement interview with Ascendra corporate partners",
+        "Full complimentary access to Ascendra Marina Bay and One-North campuses"
+      ],
+      "application_deadline": "Rolling Monthly Submissions (Next cutoff: 15 Nov 2026)",
+      "process_steps": [
+        "Submit online portfolio and 500-word statement of impact",
+        "45-minute technical or analytical diagnostic interview",
+        "Final selection defense before the Ascendra Fellowship Board"
+      ],
+      "badge": "Flagship Prestige Award"
+    },
+    {
+      "id": "SCH-002",
+      "title": "Singapore Tech Innovation & Frontier Grant",
+      "funding_amount": "Up to $15,000 SGD Combined Grant Support",
+      "funding_type": "Government-Co-Funded Grant (SkillsFuture / SSG)",
+      "eligibility": [
+        "Singapore Citizens aged 21 and above",
+        "Mid-career professionals seeking transition into DeepTech, AI, or Cyber Defense",
+        "No prior advanced degree in computing required"
+      ],
+      "benefits": [
+        "Up to 90% direct course fee subsidy automatically applied at registration",
+        "Additional $1,000 monthly training allowance for eligible full-time learners",
+        "Full access to enterprise GPU computing clusters throughout study period",
+        "Career concierge matching with Smart Nation partner employers"
+      ],
+      "application_deadline": "Open All Year Round under SkillsFuture Mid-Career Initiative",
+      "process_steps": [
+        "Singpass authentication and SkillsFuture credit verification",
+        "Ascendra skills diagnostic and pathway recommendation",
+        "Instant grant deduction with zero upfront out-of-pocket lockup"
+      ],
+      "badge": "National SkillsFuture Initiative"
+    },
+    {
+      "id": "SCH-003",
+      "title": "Women in DeepTech & AI Fellowship",
+      "funding_amount": "80% Tuition Sponsorship + $2,500 Hardware Grant",
+      "funding_type": "Equity in Innovation Endowment",
+      "eligibility": [
+        "Female students, engineers, and researchers residing in Singapore",
+        "Pursuing Artificial Intelligence, Cyber Warfare, or Spatial Computing",
+        "Demonstrated passion for bridging the gender gap in technical leadership"
+      ],
+      "benefits": [
+        "80% tuition subsidy sponsored by international venture partners",
+        "Personal 1-on-1 mentorship with female tech executives from Apple, Stripe, and Sea",
+        "Dedicated cloud GPU stipend and Apple Vision Pro lab reservations",
+        "Invitation to the Annual Women in AI Asia Summit"
+      ],
+      "application_deadline": "Quarterly Intake (Next: 30 Nov 2026)",
+      "process_steps": [
+        "Submit technical resume and code/design repository link",
+        "Peer interview with Women in Tech Advisory Council",
+        "Immediate award disbursement upon cohort acceptance"
+      ],
+      "badge": "Diversity & Leadership"
+    },
+    {
+      "id": "SCH-004",
+      "title": "Silver Renaissance Lifelong Learning Award",
+      "funding_amount": "70% Tuition Offset + Concierge Tech Tutoring",
+      "funding_type": "Lifelong Transformation Fund",
+      "eligibility": [
+        "Singapore Citizens aged 45 and above",
+        "Desire to master modern artificial intelligence, digital design, or new languages",
+        "All academic backgrounds welcomed"
+      ],
+      "benefits": [
+        "Subsidized fees combined with dedicated 1-on-1 digital onboarding support",
+        "Paced learning schedules designed around family and executive schedules",
+        "Lifelong access to campus community workshops and guest lectures",
+        "Inter-generational project pairing with younger tech prodigies"
+      ],
+      "application_deadline": "Continuous Open Enrollment",
+      "process_steps": [
+        "Informal coffee consultation at any of our 10 campuses",
+        "Tailored pathway selection with an Ascendra Academic Advisor",
+        "Enrollment with immediate SkillsFuture credit drawdown"
+      ],
+      "badge": "Lifelong Mastery"
+    }
+  ],
+  "events_and_workshops": [
+    {
+      "id": "EVT-201",
+      "title": "Autonomous AI Summit 2026: Multi-Agent Systems in Finance & Healthcare",
+      "type": "Keynote",
+      "category": "Artificial Intelligence",
+      "date": "14 Nov 2026",
+      "time": "6:30 PM - 9:30 PM",
+      "duration": "3 Hours",
+      "venue": "One-North Tech Nexus Grand Auditorium & Live Holographic Stream",
+      "speaker": "Dr. Jonathan Kuan",
+      "speaker_title": "Distinguished AI Enterprise Fellow & Keynote Chair",
+      "speaker_image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop",
+      "capacity": 350,
+      "spots_left": 18,
+      "is_free": true,
+      "description": "An exclusive summit exploring how Singapore sovereign entities and international banks are architecting deterministic safeguards for multi-agent autonomous systems.",
+      "topics": [
+        "LangGraph versus Autogen in enterprise finance",
+        "Hardening vector databases against prompt injection",
+        "Live demonstration of multi-agent financial audit automation"
+      ],
+      "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "EVT-202",
+      "title": "Executive Masterclass: Managing MAS Sandbox Regulatory Approvals",
+      "type": "Masterclass",
+      "category": "FinTech & Governance",
+      "date": "19 Nov 2026",
+      "time": "2:00 PM - 5:30 PM",
+      "duration": "3.5 Hours",
+      "venue": "Marina Bay Financial Centre, Executive Boardroom Level 42",
+      "speaker": "Amanda Sterling",
+      "speaker_title": "Former MAS Senior Advisory Director, FinTech Sandbox",
+      "speaker_image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop",
+      "capacity": 40,
+      "spots_left": 4,
+      "is_free": false,
+      "description": "A closed-door executive masterclass breaking down the step-by-step regulatory submission procedures for novel FinTech models under Singapore's Payment Services Act.",
+      "topics": [
+        "Navigating MAS digital token licensing criteria",
+        "Structuring cross-border reserve backing compliance",
+        "Private Q&A on participant specific product roadmaps"
+      ],
+      "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "EVT-203",
+      "title": "Spatial Computing Lab: Live Prototyping on Apple Vision Pro",
+      "type": "Workshop",
+      "category": "Creative & Spatial Design",
+      "date": "22 Nov 2026",
+      "time": "10:00 AM - 4:00 PM",
+      "duration": "6 Hours",
+      "venue": "Tanjong Pagar Design Loft, Studio A",
+      "speaker": "Liam Zhao",
+      "speaker_title": "Spatial Computing Technologist & VisionOS Lead",
+      "speaker_image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=800&auto=format&fit=crop",
+      "capacity": 25,
+      "spots_left": 3,
+      "is_free": false,
+      "description": "Spend a full Saturday inside our hardware laboratory designing and testing interactive volumetric prototypes directly on Vision Pro headsets.",
+      "topics": [
+        "Spatial interaction ergonomics and eye tracking accuracy",
+        "Translating 2D design libraries into 3D glass assets",
+        "Live peer critique and hardware demo showcase"
+      ],
+      "image": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "EVT-204",
+      "title": "Diplomatic Japanese: The Art of Cross-Border Nemawashi",
+      "type": "Industry Talk",
+      "category": "Diplomatic Languages",
+      "date": "26 Nov 2026",
+      "time": "7:00 PM - 8:45 PM",
+      "duration": "1.75 Hours",
+      "venue": "Bugis Heritage Academy, Salon Français & Japanese Garden",
+      "speaker": "Hiroshi Mori",
+      "speaker_title": "Senior Cross-Border Arbitrator & Bilingual Counsel",
+      "speaker_image": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=800&auto=format&fit=crop",
+      "capacity": 60,
+      "spots_left": 11,
+      "is_free": true,
+      "description": "An evocative evening exploring how multi-million dollar Japanese business partnerships are forged in the unseen spaces of informal consensus building.",
+      "topics": [
+        "The cultural mechanics of Nemawashi (laying groundwork)",
+        "Decoding indirect refusals and honorific body language",
+        "Traditional tea ceremony & networking reception"
+      ],
+      "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "EVT-205",
+      "title": "Ascendra Career Syndicate: Speed-Placements with 40+ Tech & Finance Giants",
+      "type": "Career Session",
+      "category": "Career Acceleration",
+      "date": "05 Dec 2026",
+      "time": "1:00 PM - 6:00 PM",
+      "duration": "5 Hours",
+      "venue": "Marina Bay Financial Centre, Level 40 Exhibition Floor",
+      "speaker": "Karen Wijaya",
+      "speaker_title": "Chairperson, Ascendra Corporate Placement Consortium",
+      "speaker_image": "https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?q=80&w=800&auto=format&fit=crop",
+      "capacity": 200,
+      "spots_left": 24,
+      "is_free": true,
+      "description": "Exclusive curated hiring fair for Ascendra alumni and prospective students. Face-to-face 15-minute speed interviews with pre-vetted senior engineering, product, and strategy directors.",
+      "topics": [
+        "Direct fast-track interview bookings",
+        "Live resume and portfolio reviews by hiring VP engineers",
+        "Compensation benchmarking and negotiation clinic"
+      ],
+      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "community": {
+    "stats": [
+      {
+        "label": "Active Members",
+        "value": "48,500+"
+      },
+      {
+        "label": "Community Guilds",
+        "value": "32 Specialized Guilds"
+      },
+      {
+        "label": "Enterprise Partners",
+        "value": "320+ Organizations"
+      },
+      {
+        "label": "Monthly Hackathons",
+        "value": "4 Multi-Campus Jams"
+      }
+    ],
+    "members": [
+      {
+        "id": "MBR-001",
+        "type": "Student",
+        "name": "Alicia Koh",
+        "title": "AI Scholar & Raffles Alumna",
+        "company_or_institution": "Ascendra Autonomous Agents Fellow",
+        "contribution": "Developed an open-source medical triage agent during the Ascendra One-North Hackathon.",
+        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop"
+      },
+      {
+        "id": "MBR-002",
+        "type": "Professional",
+        "name": "Raymond Goh",
+        "title": "Senior Quantitative Researcher",
+        "company_or_institution": "Quant Hedge Fund, Marina Bay",
+        "contribution": "Leads the weekly Ascendra FinTech Guild algorithmic trading study group.",
+        "image": "https://images.unsplash.com/photo-1513956589380-bad6acb9b9d4?q=80&w=800&auto=format&fit=crop"
+      },
+      {
+        "id": "MBR-003",
+        "type": "Mentor",
+        "name": "Elena Rostova",
+        "title": "Senior Director of Cyber Defense",
+        "company_or_institution": "Cloud Security Alliance (Asia)",
+        "contribution": "Mentors 6 emerging women in cybersecurity every cohort on purple-team simulations.",
+        "image": "https://images.unsplash.com/photo-1548142813-c348350df52b?q=80&w=800&auto=format&fit=crop"
+      },
+      {
+        "id": "MBR-004",
+        "type": "Alumni",
+        "name": "Farhan Malik",
+        "title": "Founder & CEO, NeuroLogix AI",
+        "company_or_institution": "Ascendra Incubator Alum",
+        "contribution": "Raised $4.2M Seed Round following the Ascendra Marina Bay Founders Demo Day.",
+        "image": "https://images.unsplash.com/photo-1566492031773-4f4e44671857?q=80&w=800&auto=format&fit=crop"
+      },
+      {
+        "id": "MBR-005",
+        "type": "Industry Partner",
+        "name": "Clementine Ong",
+        "title": "Head of Talent & Engineering Ecosystem",
+        "company_or_institution": "Grab Singapore",
+        "contribution": "Directly hired 14 Ascendra engineering fellows into senior autonomous systems roles.",
+        "image": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?q=80&w=800&auto=format&fit=crop"
+      }
+    ],
+    "partners": [
+      "GovTech Singapore",
+      "DBS Bank",
+      "Grab",
+      "Shopee",
+      "Temasek Holdings",
+      "Google Cloud",
+      "Amazon Web Services",
+      "Standard Chartered",
+      "NVIDIA Inception",
+      "Singapore Institute of Directors"
+    ],
+    "initiatives": [
+      {
+        "title": "Ascendra Guild Nights",
+        "description": "Weekly bi-campus peer-led meetups where alumni and students dissect new AI papers, legal precedents, and design innovations.",
+        "tag": "Weekly on Thursdays"
+      },
+      {
+        "title": "Autonomous Agent Accelerator",
+        "description": "A 48-hour continuous hackathon with $50,000 SGD in cloud credits and direct seed fund review for top projects.",
+        "tag": "Monthly on Weekends"
+      },
+      {
+        "title": "Boardroom Shadow Program",
+        "description": "Pairing emerging female and minority executives with sitting SGX board directors for 6 months of confidential governance shadowing.",
+        "tag": "Bi-Annual Fellowship"
+      }
+    ]
+  },
+  "campuses": [
+    {
+      "id": "CMP-001",
+      "name": "Marina Bay Financial Centre Campus",
+      "zone": "Central",
+      "address": "10 Marina Boulevard, Tower 2, Level 41-42, Singapore 018983",
+      "mrt": "Downtown MRT / Raffles Place MRT (3 min walk)",
+      "facilities": [
+        "Panoramic 360 Boardroom Suites",
+        "Simulated Financial Trading Floor",
+        "Private Executive Dining Lounge",
+        "Whiskey & Cigar Networking Salon"
+      ],
+      "architectural_concept": "Skyline aerie clad in brushed titanium and acoustic walnut paneling overlooking the Marina Bay Sands harbor basin.",
+      "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?q=80&w=1200&auto=format&fit=crop",
+      "phone": "+65 6820 9001",
+      "opening_hours": "Mon - Sat: 8:00 AM - 10:00 PM | Sun: 9:00 AM - 6:00 PM"
+    },
+    {
+      "id": "CMP-002",
+      "name": "One-North Tech Nexus",
+      "zone": "Central",
+      "address": "1 Fusionopolis Way, Symbiosis Tower Level 12-14, Singapore 138632",
+      "mrt": "One-North MRT (Direct basement link)",
+      "facilities": [
+        "Dedicated Nvidia H100 Cloud Compute Pods",
+        "Holographic Projection Stage",
+        "24/7 Hacker Lounge with Cold Brew on Tap",
+        "Robotics Hardware Fabrication Lab"
+      ],
+      "architectural_concept": "Futuristic industrial minimalism with exposed polished concrete, fiber-optic light tunnels, and soundproof engineering booths.",
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop",
+      "phone": "+65 6778 9002",
+      "opening_hours": "24/7 Access for Fellow Members | Concierge: 8:30 AM - 9:30 PM"
+    },
+    {
+      "id": "CMP-003",
+      "name": "Orchard Central Learning Hub",
+      "zone": "Central",
+      "address": "181 Orchard Road, Orchard Central Level 11, Singapore 238896",
+      "mrt": "Somerset MRT (Direct escalator access)",
+      "facilities": [
+        "Acoustic Masterclass Amphitheatres",
+        "Private 1-on-1 Diagnostic Consultation Suites",
+        "Sunlit Biophilic Atrium Study Garden",
+        "Specialty Espresso Bar"
+      ],
+      "architectural_concept": "Biophilic sanctuary featuring an indoor vertical living garden, natural daylighting, and bespoke acoustic felt furnishings.",
+      "image": "https://images.unsplash.com/photo-1577495508048-b635879837f1?q=80&w=1200&auto=format&fit=crop",
+      "phone": "+65 6235 9003",
+      "opening_hours": "Mon - Sun: 8:00 AM - 9:30 PM"
+    },
+    {
+      "id": "CMP-004",
+      "name": "Jurong Innovation District Campus",
+      "zone": "West",
+      "address": "CleanTech Loop, CleanTech One Level 5, Singapore 637141",
+      "mrt": "Pioneer MRT / Jurong West MRT (Shuttle provided)",
+      "facilities": [
+        "Autonomous Systems Testing Hall",
+        "Advanced Manufacturing Simulation Suite",
+        "Open Collaboration Forum",
+        "Outdoor Solar Terrace"
+      ],
+      "architectural_concept": "Eco-forward sustainable architecture with timber beam frameworks, solar glass facades, and modular team studios.",
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=1200&auto=format&fit=crop",
+      "phone": "+65 6790 9004",
+      "opening_hours": "Mon - Fri: 8:00 AM - 9:00 PM | Sat: 9:00 AM - 5:00 PM"
+    },
+    {
+      "id": "CMP-005",
+      "name": "Tampines Regional Campus",
+      "zone": "East",
+      "address": "1 Tampines Walk, Our Tampines Hub Level 6, Singapore 528523",
+      "mrt": "Tampines MRT (5 min sheltered walk)",
+      "facilities": [
+        "Community Academic Forum",
+        "Interactive Singapore Math Heuristic Studio",
+        "Quiet Focus Pods",
+        "Parent-Mentor Lounge"
+      ],
+      "architectural_concept": "Bright Nordic timber design with warm oak furniture, open sightlines, and child-safe ergonomic study environments.",
+      "image": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?q=80&w=1200&auto=format&fit=crop",
+      "phone": "+65 6788 9005",
+      "opening_hours": "Mon - Sun: 8:30 AM - 9:30 PM"
+    },
+    {
+      "id": "CMP-006",
+      "name": "Tanjong Pagar Design Loft",
+      "zone": "South",
+      "address": "79 Anson Road, Level 18, Singapore 079906",
+      "mrt": "Tanjong Pagar MRT (2 min walk)",
+      "facilities": [
+        "Apple Vision Pro Spatial Laboratory",
+        "Motion Capture & Lighting Test Studio",
+        "Material Design Library",
+        "Exhibition Gallery"
+      ],
+      "architectural_concept": "Gallery-style loft with museum-grade lighting, matte charcoal surfaces, and curated industrial furniture.",
+      "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200&auto=format&fit=crop",
+      "phone": "+65 6224 9006",
+      "opening_hours": "Mon - Sat: 9:00 AM - 10:00 PM | Sun: 10:00 AM - 6:00 PM"
+    },
+    {
+      "id": "CMP-007",
+      "name": "Buona Vista Biopolis Campus",
+      "zone": "West",
+      "address": "8 Biomedical Grove, Neuros Level 4, Singapore 138665",
+      "mrt": "Buona Vista MRT Interchange (4 min walk)",
+      "facilities": [
+        "Bio-Data Analytics Lab",
+        "Collaborative Research Amphitheatre",
+        "Medical Ethics Roundtable",
+        "Silent Research Library"
+      ],
+      "architectural_concept": "Clean clinical aesthetic accented with warm brass details, curved acoustic dividers, and floor-to-ceiling glass.",
+      "image": "https://images.unsplash.com/photo-1541123437800-1bb1317badc2?q=80&w=1200&auto=format&fit=crop",
+      "phone": "+65 6478 9007",
+      "opening_hours": "Mon - Fri: 8:30 AM - 8:30 PM | Sat: 9:00 AM - 4:00 PM"
+    },
+    {
+      "id": "CMP-008",
+      "name": "Bugis Heritage Academy",
+      "zone": "Central",
+      "address": "200 Victoria Street, Bugis Junction Towers Level 9, Singapore 188021",
+      "mrt": "Bugis MRT (Direct underground access)",
+      "facilities": [
+        "Simultaneous Diplomatic Interpretation Suites",
+        "Traditional Tatami Cultural Room",
+        "Language Immersion Audio Pods",
+        "Heritage Tea Salon"
+      ],
+      "architectural_concept": "Peranakan archways reimagined in contemporary blackened steel, warm teak woodwork, and tranquil Japanese raked gravel courtyards.",
+      "image": "https://images.unsplash.com/photo-1517502884422-41eaead166d4?q=80&w=1200&auto=format&fit=crop",
+      "phone": "+65 6338 9008",
+      "opening_hours": "Mon - Sun: 9:00 AM - 9:30 PM"
+    },
+    {
+      "id": "CMP-009",
+      "name": "Woodlands Northern Hub",
+      "zone": "North",
+      "address": "900 South Woodlands Drive, Woodlands Civic Centre Level 7, Singapore 730900",
+      "mrt": "Woodlands MRT Interchange (3 min walk)",
+      "facilities": [
+        "STEM Robotics Workshop",
+        "Cross-Border Enterprise Classrooms",
+        "Family Consultation Suites",
+        "Tech Demo Stage"
+      ],
+      "architectural_concept": "Airy dual-height glass atrium, cascading greenery, and ultra-high-speed fiber connections linking to cross-border research centers.",
+      "image": "https://images.unsplash.com/photo-1505409859467-3a796fd5798e?q=80&w=1200&auto=format&fit=crop",
+      "phone": "+65 6365 9009",
+      "opening_hours": "Mon - Sun: 8:30 AM - 9:00 PM"
+    },
+    {
+      "id": "CMP-010",
+      "name": "Paya Lebar Cyber Quarter",
+      "zone": "East",
+      "address": "10 Paya Lebar Road, PLQ 1 Level 15, Singapore 409057",
+      "mrt": "Paya Lebar MRT Interchange (Direct indoor link)",
+      "facilities": [
+        "Air-Gapped Cyber Warfare Defense Range",
+        "Incident Response Command War-Room",
+        "Threat Intelligence Briefing Theatre",
+        "Cyber Security Guild Lounge"
+      ],
+      "architectural_concept": "Dark mode high-security cyber bunker with ambient blue perimeter illumination, cryptographic art installations, and biometric security gates.",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1200&auto=format&fit=crop",
+      "phone": "+65 6908 9010",
+      "opening_hours": "24/7 for Cyber Range Trainees | General: 8:00 AM - 9:30 PM"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+
+ASCENDRA LEARNING
+Singapore Premium Multi-Disciplinary Education Platform
+
+PROJECT VISION
+Ascendra Learning is a premium lifelong learning ecosystem for Singapore covering Academic, Technology, Business, Languages, Creative Arts, and Professional Development.
+
+CORE UX PRINCIPLES
+- Sheryians-inspired philosophy (not a clone)
+- Storytelling-driven layout
+- Large typography
+- Scroll-based interactions
+- Strong visual hierarchy
+- Generous whitespace
+- Dynamic content from JSON
+
+NAVIGATION
+- Floating navigation
+- Glassmorphism blur
+- Auto-hide on scroll
+- Explore, Programs, Pathways, Learning, Admissions, Community
+
+SECTIONS
+1. Hero
+2. Learning Goals
+3. Learning Universe
+4. Career Pathways
+5. Program Explorer
+6. Trainer Stories
+7. Trial Classes
+8. Admissions Journey
+9. Learning Formats
+10. Certifications
+11. Success Stories
+12. Reviews
+13. Scholarships
+14. Events & Workshops
+15. Community
+16. Campuses
+
+TECH STACK
+- Next.js 15
+- React 19
+- TypeScript
+- Tailwind CSS v4
+- Framer Motion
+- GSAP
+- Lenis
+
+COLOR PALETTE
+Background: #0A0A0A
+Surface: #111111
+Card: #1A1A1A
+Primary: #F5F5F5
+Accent: #FF6B35
+Secondary: #6EE7B7
+Highlight: #FFD166
+Border: #2A2A2A
+
+DATA SOURCES
+- Courses
+- Fees
+- Schedules
+- Eligibility
+- Admissions
+- Trainers
+- Trial Classes
+- Certifications
+- Learning Formats
+- Reviews
+- Success Stories
+- Scholarships
+- Events
+- Workshops
+- Campuses
+
+FINAL GOAL
+Create a premium Singapore learning ecosystem that feels modern, immersive, and different from traditional tuition centre websites.
